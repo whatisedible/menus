@@ -1,0 +1,456 @@
+{
+  "id": "edible-eatery",
+  "name": "Edible Eatery",
+  "address": "666 The Place, Toronto, M7Z 1H6",
+  "phone": "416-444-1234",
+  "orderHref": "#",
+  "bookHref": "#",
+  "policy": {
+    "guest": "Please advise your server of food allergies. For online orders, please detail allergen information in the order notes."
+  },
+  "menus": [
+    {
+      "id": "lunch",
+      "name": "Lunch",
+      "serviceHours": [
+        {
+          "startDay": "Wednesday",
+          "endDay": "Sunday",
+          "startTime": "12pm",
+          "endTime": "3pm"
+        }
+      ],
+      "sections": [
+        {
+          "id": "lunch-antipasti",
+          "name": "Antipasti",
+          "items": [
+            {
+              "id": "focaccia",
+              "name": "Focaccia",
+              "price": 4,
+              "description": "House made focaccia",
+              "hasUniquePrepEnv": false,
+              "diets": ["Vegetarian"],
+              "allergens": [
+                {
+                  "name": "Dairy",
+                  "cat": "Dairy"
+                },
+                {
+                  "name": "Wheat",
+                  "cat": "Gluten"
+                },
+                {
+                  "name": "Eggs",
+                  "cat": "Eggs"
+                },
+                {
+                  "name": "Lupin",
+                  "cat": "Lupin"
+                }
+              ]
+            },
+            {
+              "id": "marinated-warm-olives",
+              "name": "Marinated Warm Olives",
+              "price": 10,
+              "description": "Castelvetrano and taggiasche olives",
+              "hasUniquePrepEnv": true,
+              "diets": ["Vegetarian", "Vegan", "Celiac"],
+              "allergens": []
+            },
+            {
+              "id": "cucumber-salad",
+              "name": "Cucumber Salad",
+              "price": 15,
+              "description": "Candied pine nuts, cannellini beans, poblano peppers, croutons, buttermilk dressing",
+              "hasUniquePrepEnv": true,
+              "diets": ["Vegetarian"],
+              "allergens": [
+                {
+                  "name": "Dairy",
+                  "cat": "Dairy"
+                },
+                {
+                  "name": "Wheat",
+                  "cat": "Gluten"
+                },
+                {
+                  "name": "Eggs",
+                  "cat": "Eggs"
+                },
+                {
+                  "name": "Celery",
+                  "cat": "Celery"
+                },
+                {
+                  "name": "Pistacchio",
+                  "cat": "Tree Nuts"
+                }
+              ]
+            },
+            {
+              "id": "burata",
+              "name": "Burata",
+              "price": 19,
+              "description": "Strawberries, pistacchio, aged balsamic vinegar",
+              "hasUniquePrepEnv": true,
+              "diets": ["Vegetarian", "Celiac"],
+              "allergens": [
+                {
+                  "name": "Dairy",
+                  "cat": "Dairy"
+                },
+                {
+                  "name": "Pistacchio",
+                  "cat": "Tree Nuts"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lunch-primi",
+          "name": "Primi",
+          "items": [
+            {
+              "id": "cacio-e-pepe",
+              "name": "Cacio e Pepe",
+              "price": 17,
+              "description": "Pecorino romano cheese, butter, black pepper",
+              "hasUniquePrepEnv": true,
+              "diets": ["Vegetarian"],
+              "allergens": [
+                {
+                  "name": "Dairy",
+                  "cat": "Dairy"
+                },
+                {
+                  "name": "Wheat",
+                  "cat": "Gluten"
+                },
+                {
+                  "name": "Eggs",
+                  "cat": "Eggs"
+                }
+              ]
+            },
+            {
+              "id": "spaghetti-alla-nerano",
+              "name": "Spaghetti Alla Nerano",
+              "price": 28,
+              "description": "Fried zucchini, grana padano, black pepper, spaghetti verdi",
+              "hasUniquePrepEnv": true,
+              "diets": ["Vegetarian"],
+              "allergens": [
+                {
+                  "name": "Dairy",
+                  "cat": "Dairy"
+                },
+                {
+                  "name": "Wheat",
+                  "cat": "Gluten"
+                },
+                {
+                  "name": "Eggs",
+                  "cat": "Eggs"
+                }
+              ]
+            },
+            {
+              "id": "tortelonni-primavera",
+              "name": "Tortelonni Primavera",
+              "price": 30,
+              "description": "Wild leek and ricotta filled pasta, morel mushrooms, brown butter emulsion",
+              "hasUniquePrepEnv": true,
+              "diets": ["Vegetarian"],
+              "allergens": [
+                {
+                  "name": "Wheat",
+                  "cat": "Gluten"
+                },
+                {
+                  "name": "Eggs",
+                  "cat": "Eggs"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dinner",
+      "name": "Dinner",
+      "serviceHours": [
+        {
+          "startDay": "Wednesday",
+          "endDay": "Sunday",
+          "startTime": "5pm",
+          "endTime": "9pm"
+        }
+      ],
+      "sections": [
+        {
+          "id": "dinner-antipasti",
+          "name": "Antipasti",
+          "items": [
+            {
+              "id": "little-gem-salad",
+              "name": "Little Gem Salad",
+              "price": 16,
+              "description": "Little gem lettuce, sun choke chips, pickled turnips, croutons, grana padano, red wine vinaigrette",
+              "allergens": [
+                {
+                  "name": "Dairy",
+                  "cat": "Dairy"
+                },
+                {
+                  "name": "Wheat",
+                  "cat": "Gluten"
+                }
+              ],
+              "diets": ["Vegetarian"],
+              "hasUniquePrepEnv": true
+            },
+            {
+              "id": "blood-orange-salad",
+              "name": "Blood Orange Salad",
+              "price": 16,
+              "description": "Blood oranges, pickled fennel, radicchio, gem lettuce, hemp hearts, red wine vinaigrette",
+              "hasUniquePrepEnv": true,
+              "diets": ["Vegetarian", "Vegan", "Celiac"],
+              "allergens": [
+                {
+                  "name": "Sulphur Dioxide",
+                  "cat": "Sulphur Dioxide"
+                }
+              ]
+            },
+            {
+              "id": "steak-tartare",
+              "name": "Steak Tartare",
+              "price": 18,
+              "description": "Toasted sourdough, pickled mustard seeds, bomba, egg yolk",
+              "hasUniquePrepEnv": true,
+              "diets": [],
+              "allergens": [
+                {
+                  "name": "Mustard",
+                  "cat": "Mustard"
+                },
+                {
+                  "name": "Wheat",
+                  "cat": "Gluten"
+                },
+                {
+                  "name": "Eggs",
+                  "cat": "Eggs"
+                },
+                {
+                  "name": "Celery",
+                  "cat": "Celery"
+                }
+              ]
+            },
+            {
+              "id": "grilled-asparagus",
+              "name": "Grillled Asparagus",
+              "price": 17,
+              "description": "Fried egg white mousse, smoked prosciutto, honey, grana padano",
+              "hasUniquePrepEnv": true,
+              "diets": ["Celiac"],
+              "allergens": [
+                {
+                  "name": "Eggs",
+                  "cat": "Eggs"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dinner-primi",
+          "name": "Primi",
+          "items": [
+            {
+              "id": "snow-crab-tagliatelle",
+              "name": "Snow Crab Tagliatelle",
+              "price": 38,
+              "description": "Butter poached N.S snow crab, peas, honey mushrooms",
+              "hasUniquePrepEnv": true,
+              "diets": [],
+              "allergens": [
+                {
+                  "name": "Dairy",
+                  "cat": "Dairy"
+                },
+                {
+                  "name": "Wheat",
+                  "cat": "Gluten"
+                },
+                {
+                  "name": "Eggs",
+                  "cat": "Eggs"
+                },
+                {
+                  "name": "Peas",
+                  "cat": "Pulses"
+                },
+                {
+                  "name": "Crustaceans",
+                  "cat": "Seafood"
+                },
+                {
+                  "name": "Sesame",
+                  "cat": "Sesame"
+                }
+              ]
+            },
+            {
+              "id": "n'duja-&-bone-marrow-mafaldine",
+              "name": "N'duja & Bone Marrow Mafaldine",
+              "price": 30,
+              "description": "Roasted bone marrow and tomato ragu, spicy n'duja, charred rapini",
+              "hasUniquePrepEnv": true,
+              "diets": [],
+              "allergens": [
+                {
+                  "name": "Dairy",
+                  "cat": "Dairy"
+                },
+                {
+                  "name": "Wheat",
+                  "cat": "Gluten"
+                },
+                {
+                  "name": "Eggs",
+                  "cat": "Eggs"
+                }
+              ]
+            },
+            {
+              "id": "octopus-tagliolini",
+              "name": "Octopus Tagliolini",
+              "price": 32,
+              "description": "Charred octopus, blistered tomatoes, taggiasche olives, anchovy brown butter sauce",
+              "hasUniquePrepEnv": true,
+              "diets": [],
+              "allergens": [
+                {
+                  "name": "Dairy",
+                  "cat": "Dairy"
+                },
+                {
+                  "name": "Wheat",
+                  "cat": "Gluten"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dinner-secondi",
+          "name": "Secondi",
+          "items": [
+            {
+              "id": "30-day-dry-aged-ribeye",
+              "name": "30 Day Dry Aged Ribeye",
+              "price": 45,
+              "description": "Ontario 30 day dry aged ribeye, fried squash and eggplant, brown butter and yellow pepper vinaigrette, caramelized onion aioli ",
+              "hasUniquePrepEnv": false,
+              "diets": ["Celiac"],
+              "allergens": [
+                {
+                  "name": "Dairy",
+                  "cat": "Dairy"
+                },
+                {
+                  "name": "Celery",
+                  "cat": "Celery"
+                },
+                {
+                  "name": "Sulphur Dioxide",
+                  "cat": "Sulphur Dioxide"
+                }
+              ]
+            },
+            {
+              "id": "pickerel",
+              "name": "Pickerel",
+              "price": 35,
+              "description": "Pan seared pickerel, French beans, figs, macadamia nuts, creama al vino bianco",
+              "hasUniquePrepEnv": false,
+              "diets": ["Celiac"],
+              "allergens": [
+                {
+                  "name": "Dairy",
+                  "cat": "Dairy"
+                },
+                {
+                  "name": "Beans",
+                  "cat": "Pulses"
+                },
+                {
+                  "name": "Macadamia",
+                  "cat": "Tree Nuts"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dinner-dolci",
+          "name": "Dolci",
+          "items": [
+            {
+              "id": "tiramisu-pancakes",
+              "name": "Tiramisu Pancakes",
+              "price": 15,
+              "description": "OEspresso syrup, buttermilk pancakes, tiramisu mousse (These take 15 minutes, so we suggest ordering at the same time as your main course if you’re planning on having them) ",
+              "hasUniquePrepEnv": false,
+              "diets": [],
+              "allergens": [
+                {
+                  "name": "Dairy",
+                  "cat": "Dairy"
+                },
+                {
+                  "name": "Wheat",
+                  "cat": "Gluten"
+                },
+                {
+                  "name": "Eggs",
+                  "cat": "Eggs"
+                }
+              ]
+            },
+            {
+              "id": "dark-chocolate-tart",
+              "name": "Dark Chocolate Tart",
+              "price": 10,
+              "description": "Valrhona dark chocolate, graham cracker crust, amaretto gelato, candied pecans",
+              "hasUniquePrepEnv": true,
+              "diets": [],
+              "allergens": [
+                {
+                  "name": "Dairy",
+                  "cat": "Dairy"
+                },
+                {
+                  "name": "Wheat",
+                  "cat": "Gluten"
+                },
+                {
+                  "name": "Pecan",
+                  "cat": "Tree Nuts"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
