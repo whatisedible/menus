@@ -1,6 +1,6 @@
 {
   "id": "edible-eatery",
-  "name": "Edible Eatery Local",
+  "name": "Edible Eatery",
   "address": "666 The Place, Toronto, M7Z 1H6",
   "phone": "416-444-1234",
   "redirect": {
@@ -45,8 +45,8 @@
                   "category": "Gluten"
                 },
                 {
-                  "name": "Eggs",
-                  "category": "Eggs"
+                  "name": "Egg",
+                  "category": "Egg"
                 },
                 {
                   "name": "Lupin",
@@ -80,16 +80,16 @@
                   "category": "Gluten"
                 },
                 {
-                  "name": "Eggs",
-                  "category": "Eggs"
+                  "name": "Egg",
+                  "category": "Egg"
                 },
                 {
                   "name": "Celery",
                   "category": "Celery"
                 },
                 {
-                  "name": "Pistacchio",
-                  "category": "Tree Nuts"
+                  "name": "Pistachio",
+                  "category": "Tree nut"
                 }
               ]
             },
@@ -97,7 +97,7 @@
               "id": "burata",
               "name": "Burata",
               "price": 19,
-              "description": "Strawberries, pistacchio, aged balsamic vinegar",
+              "description": "Strawberries, pistachio, aged balsamic vinegar",
               "hasUniquePrepEnv": true,
               "diets": ["Vegetarian", "Celiac"],
               "allergens": [
@@ -106,8 +106,8 @@
                   "category": "Dairy"
                 },
                 {
-                  "name": "Pistacchio",
-                  "category": "Tree Nuts"
+                  "name": "Pistachio",
+                  "category": "Tree nut"
                 }
               ]
             }
@@ -134,8 +134,8 @@
                   "category": "Gluten"
                 },
                 {
-                  "name": "Eggs",
-                  "category": "Eggs"
+                  "name": "Egg",
+                  "category": "Egg"
                 }
               ]
             },
@@ -156,8 +156,8 @@
                   "category": "Gluten"
                 },
                 {
-                  "name": "Eggs",
-                  "category": "Eggs"
+                  "name": "Egg",
+                  "category": "Egg"
                 }
               ]
             },
@@ -174,8 +174,8 @@
                   "category": "Gluten"
                 },
                 {
-                  "name": "Eggs",
-                  "category": "Eggs"
+                  "name": "Egg",
+                  "category": "Egg"
                 }
               ]
             }
@@ -226,8 +226,8 @@
               "diets": ["Vegetarian", "Vegan", "Celiac"],
               "allergens": [
                 {
-                  "name": "Sulphur Dioxide",
-                  "category": "Sulphur Dioxide"
+                  "name": "Sulphur dioxide",
+                  "category": "Sulphur dioxide"
                 }
               ]
             },
@@ -248,8 +248,8 @@
                   "category": "Gluten"
                 },
                 {
-                  "name": "Eggs",
-                  "category": "Eggs"
+                  "name": "Egg",
+                  "category": "Egg"
                 },
                 {
                   "name": "Celery",
@@ -266,8 +266,8 @@
               "diets": ["Celiac"],
               "allergens": [
                 {
-                  "name": "Eggs",
-                  "category": "Eggs"
+                  "name": "Egg",
+                  "category": "Egg"
                 }
               ]
             }
@@ -294,8 +294,8 @@
                   "category": "Gluten"
                 },
                 {
-                  "name": "Eggs",
-                  "category": "Eggs"
+                  "name": "Egg",
+                  "category": "Egg"
                 },
                 {
                   "name": "Peas",
@@ -328,8 +328,8 @@
                   "category": "Gluten"
                 },
                 {
-                  "name": "Eggs",
-                  "category": "Eggs"
+                  "name": "Egg",
+                  "category": "Egg"
                 }
               ]
             },
@@ -374,8 +374,8 @@
                   "category": "Celery"
                 },
                 {
-                  "name": "Sulphur Dioxide",
-                  "category": "Sulphur Dioxide"
+                  "name": "Sulphur dioxide",
+                  "category": "Sulphur dioxide"
                 }
               ]
             },
@@ -393,11 +393,11 @@
                 },
                 {
                   "name": "Beans",
-                  "category": "Pulses"
+                  "category": "Pulse"
                 },
                 {
                   "name": "Macadamia",
-                  "category": "Tree Nuts"
+                  "category": "Tree nut"
                 }
               ]
             }
@@ -424,8 +424,8 @@
                   "category": "Gluten"
                 },
                 {
-                  "name": "Eggs",
-                  "category": "Eggs"
+                  "name": "Egg",
+                  "category": "Egg"
                 }
               ]
             },
@@ -447,7 +447,7 @@
                 },
                 {
                   "name": "Pecan",
-                  "category": "Tree Nuts"
+                  "category": "Tree nut"
                 }
               ]
             }
