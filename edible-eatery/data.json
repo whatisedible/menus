@@ -38,19 +38,19 @@
               "allergens": [
                 {
                   "name": "Dairy",
-                  "cat": "Dairy"
+                  "category": "Dairy"
                 },
                 {
                   "name": "Wheat",
-                  "cat": "Gluten"
+                  "category": "Gluten"
                 },
                 {
                   "name": "Eggs",
-                  "cat": "Eggs"
+                  "category": "Eggs"
                 },
                 {
                   "name": "Lupin",
-                  "cat": "Lupin"
+                  "category": "Lupin"
                 }
               ]
             },
@@ -73,23 +73,23 @@
               "allergens": [
                 {
                   "name": "Dairy",
-                  "cat": "Dairy"
+                  "category": "Dairy"
                 },
                 {
                   "name": "Wheat",
-                  "cat": "Gluten"
+                  "category": "Gluten"
                 },
                 {
                   "name": "Eggs",
-                  "cat": "Eggs"
+                  "category": "Eggs"
                 },
                 {
                   "name": "Celery",
-                  "cat": "Celery"
+                  "category": "Celery"
                 },
                 {
                   "name": "Pistacchio",
-                  "cat": "Tree Nuts"
+                  "category": "Tree Nuts"
                 }
               ]
             },
@@ -103,11 +103,11 @@
               "allergens": [
                 {
                   "name": "Dairy",
-                  "cat": "Dairy"
+                  "category": "Dairy"
                 },
                 {
                   "name": "Pistacchio",
-                  "cat": "Tree Nuts"
+                  "category": "Tree Nuts"
                 }
               ]
             }
@@ -127,15 +127,15 @@
               "allergens": [
                 {
                   "name": "Dairy",
-                  "cat": "Dairy"
+                  "category": "Dairy"
                 },
                 {
                   "name": "Wheat",
-                  "cat": "Gluten"
+                  "category": "Gluten"
                 },
                 {
                   "name": "Eggs",
-                  "cat": "Eggs"
+                  "category": "Eggs"
                 }
               ]
             },
@@ -149,15 +149,15 @@
               "allergens": [
                 {
                   "name": "Dairy",
-                  "cat": "Dairy"
+                  "category": "Dairy"
                 },
                 {
                   "name": "Wheat",
-                  "cat": "Gluten"
+                  "category": "Gluten"
                 },
                 {
                   "name": "Eggs",
-                  "cat": "Eggs"
+                  "category": "Eggs"
                 }
               ]
             },
@@ -171,11 +171,11 @@
               "allergens": [
                 {
                   "name": "Wheat",
-                  "cat": "Gluten"
+                  "category": "Gluten"
                 },
                 {
                   "name": "Eggs",
-                  "cat": "Eggs"
+                  "category": "Eggs"
                 }
               ]
             }
@@ -207,11 +207,11 @@
               "allergens": [
                 {
                   "name": "Dairy",
-                  "cat": "Dairy"
+                  "category": "Dairy"
                 },
                 {
                   "name": "Wheat",
-                  "cat": "Gluten"
+                  "category": "Gluten"
                 }
               ],
               "diets": ["Vegetarian"],
@@ -227,7 +227,7 @@
               "allergens": [
                 {
                   "name": "Sulphur Dioxide",
-                  "cat": "Sulphur Dioxide"
+                  "category": "Sulphur Dioxide"
                 }
               ]
             },
@@ -241,19 +241,19 @@
               "allergens": [
                 {
                   "name": "Mustard",
-                  "cat": "Mustard"
+                  "category": "Mustard"
                 },
                 {
                   "name": "Wheat",
-                  "cat": "Gluten"
+                  "category": "Gluten"
                 },
                 {
                   "name": "Eggs",
-                  "cat": "Eggs"
+                  "category": "Eggs"
                 },
                 {
                   "name": "Celery",
-                  "cat": "Celery"
+                  "category": "Celery"
                 }
               ]
             },
@@ -267,7 +267,7 @@
               "allergens": [
                 {
                   "name": "Eggs",
-                  "cat": "Eggs"
+                  "category": "Eggs"
                 }
               ]
             }
@@ -287,27 +287,27 @@
               "allergens": [
                 {
                   "name": "Dairy",
-                  "cat": "Dairy"
+                  "category": "Dairy"
                 },
                 {
                   "name": "Wheat",
-                  "cat": "Gluten"
+                  "category": "Gluten"
                 },
                 {
                   "name": "Eggs",
-                  "cat": "Eggs"
+                  "category": "Eggs"
                 },
                 {
                   "name": "Peas",
-                  "cat": "Pulses"
+                  "category": "Pulses"
                 },
                 {
                   "name": "Crustaceans",
-                  "cat": "Seafood"
+                  "category": "Seafood"
                 },
                 {
                   "name": "Sesame",
-                  "cat": "Sesame"
+                  "category": "Sesame"
                 }
               ]
             },
@@ -321,15 +321,15 @@
               "allergens": [
                 {
                   "name": "Dairy",
-                  "cat": "Dairy"
+                  "category": "Dairy"
                 },
                 {
                   "name": "Wheat",
-                  "cat": "Gluten"
+                  "category": "Gluten"
                 },
                 {
                   "name": "Eggs",
-                  "cat": "Eggs"
+                  "category": "Eggs"
                 }
               ]
             },
@@ -343,11 +343,11 @@
               "allergens": [
                 {
                   "name": "Dairy",
-                  "cat": "Dairy"
+                  "category": "Dairy"
                 },
                 {
                   "name": "Wheat",
-                  "cat": "Gluten"
+                  "category": "Gluten"
                 }
               ]
             }
@@ -367,15 +367,15 @@
               "allergens": [
                 {
                   "name": "Dairy",
-                  "cat": "Dairy"
+                  "category": "Dairy"
                 },
                 {
                   "name": "Celery",
-                  "cat": "Celery"
+                  "category": "Celery"
                 },
                 {
                   "name": "Sulphur Dioxide",
-                  "cat": "Sulphur Dioxide"
+                  "category": "Sulphur Dioxide"
                 }
               ]
             },
@@ -389,15 +389,15 @@
               "allergens": [
                 {
                   "name": "Dairy",
-                  "cat": "Dairy"
+                  "category": "Dairy"
                 },
                 {
                   "name": "Beans",
-                  "cat": "Pulses"
+                  "category": "Pulses"
                 },
                 {
                   "name": "Macadamia",
-                  "cat": "Tree Nuts"
+                  "category": "Tree Nuts"
                 }
               ]
             }
@@ -417,15 +417,15 @@
               "allergens": [
                 {
                   "name": "Dairy",
-                  "cat": "Dairy"
+                  "category": "Dairy"
                 },
                 {
                   "name": "Wheat",
-                  "cat": "Gluten"
+                  "category": "Gluten"
                 },
                 {
                   "name": "Eggs",
-                  "cat": "Eggs"
+                  "category": "Eggs"
                 }
               ]
             },
@@ -439,15 +439,15 @@
               "allergens": [
                 {
                   "name": "Dairy",
-                  "cat": "Dairy"
+                  "category": "Dairy"
                 },
                 {
                   "name": "Wheat",
-                  "cat": "Gluten"
+                  "category": "Gluten"
                 },
                 {
                   "name": "Pecan",
-                  "cat": "Tree Nuts"
+                  "category": "Tree Nuts"
                 }
               ]
             }
