@@ -1,28 +1,13 @@
 {
 	"id": "edible-eatery",
 	"name": "Edible Eatery Local",
-	"address": "666 The Place, Toronto, M7Z 1H6",
 	"phone": "416-444-1234",
-	"redirect": {
-		"openTable": "#",
-		"ritual": "#",
-		"uberEats": "#"
-	},
-	"policy": {
-		"guest": "Please advise your server of food allergies. For online orders, please detail allergen information in the order notes."
-	},
 	"menus": [
 		{
 			"id": "lunch",
 			"name": "Lunch",
-			"serviceHours": [
-				{
-					"startDay": "Wednesday",
-					"endDay": "Sunday",
-					"startTime": "12pm",
-					"endTime": "3pm"
-				}
-			],
+			"description": "A fine selection of small bites",
+			"status": "Published",
 			"sections": [
 				{
 					"id": "lunch-antipasti",
@@ -33,83 +18,119 @@
 							"name": "Focaccia",
 							"price": 4,
 							"description": "House made focaccia",
-							"hasUniquePrepEnv": false,
-							"diets": ["Vegetarian"],
+							"diets": [{ "diet": "Vegetarian", "mustRequest": false  }],
 							"allergens": [
 								{
-									"name": "Dairy",
-									"cat": "Dairy"
+									"allergen": "Dairy",
+									"category": "Dairy",
+									"canRemove": true,
+									"mayContain": false
 								},
 								{
-									"name": "Wheat",
-									"cat": "Gluten"
+									"allergen": "Cereals containing gluten",
+									"category": "Cereals containing gluten",
+									"canRemove": false,
+									"mayContain": false
 								},
 								{
-									"name": "Eggs",
-									"cat": "Eggs"
+									"allergen": "Egg",
+									"category": "Egg",
+									"canRemove": false,
+									"mayContain": false
 								},
 								{
-									"name": "Lupin",
-									"cat": "Lupin"
-								}
-							]
+									"allergen": "Lupin",
+									"category": "Lupin",
+									"canRemove": true,
+									"mayContain": true
+								},
+							],
+							"can_safegaurd": true,
+							"has_cross_contact": true
 						},
 						{
 							"id": "marinated-warm-olives",
 							"name": "Marinated Warm Olives",
 							"price": 10,
 							"description": "Castelvetrano and taggiasche olives",
-							"hasUniquePrepEnv": true,
-							"diets": ["Vegetarian", "Vegan", "Celiac"],
-							"allergens": []
+							"diets": [
+								{ "diet": "Vegetarian", "mustRequest": false  }
+								{ "diet": "Vegan", "mustRequest": false  }
+								{ "diet": "Celia", "mustRequest": false  }
+							],
+							"allergens": [],
+							"can_safegaurd": true,
+							"has_cross_contact": false
 						},
 						{
 							"id": "cucumber-salad",
 							"name": "Cucumber Salad",
 							"price": 15,
 							"description": "Candied pine nuts, cannellini beans, poblano peppers, croutons, buttermilk dressing",
-							"hasUniquePrepEnv": true,
-							"diets": ["Vegetarian"],
+							"diets": [{ "diet": "Vegetarian", "mustRequest": false  }],
 							"allergens": [
 								{
-									"name": "Dairy",
-									"cat": "Dairy"
+									"allergen": "Dairy",
+									"category": "Dairy",
+									"canRemove": true,
+									"mayContain": false
 								},
 								{
-									"name": "Wheat",
-									"cat": "Gluten"
+									"allergen": "Cereals containing gluten",
+									"category": "Cereals containing gluten",
+									"canRemove": false,
+									"mayContain": false
 								},
 								{
-									"name": "Eggs",
-									"cat": "Eggs"
+									"allergen": "Egg",
+									"category": "Egg",
+									"canRemove": false,
+									"mayContain": false
 								},
 								{
-									"name": "Celery",
-									"cat": "Celery"
+									"allergen": "Lupin",
+									"category": "Lupin",
+									"canRemove": true,
+									"mayContain": true
 								},
 								{
-									"name": "Pistacchio",
-									"cat": "Tree Nuts"
-								}
-							]
+									"allergen": "Celery",
+									"category": "Celery",
+									"canRemove": true,
+									"mayContain": false
+								},
+								{
+									"allergen": "Pistachio",
+									"category": "Tree nuts",
+									"canRemove": true,
+									"mayContain": false
+								},
+							],
+							"can_safegaurd": true,
+							"has_cross_contact": false
 						},
 						{
 							"id": "burata",
 							"name": "Burata",
 							"price": 19,
-							"description": "Strawberries, pistacchio, aged balsamic vinegar",
-							"hasUniquePrepEnv": true,
-							"diets": ["Vegetarian", "Celiac"],
+							"description": "Strawberries, pistachio, aged balsamic vinegar",
+							"diets": [{ "diet": "Vegetarian", "mustRequest": false  }, { "diet": "Celiac", "mustRequest": true  }],
 							"allergens": [
 								{
-									"name": "Dairy",
-									"cat": "Dairy"
+									"allergen": "Dariy",
+									"category": "Dairy",
+									"canRemove": true,
+									"mayContain": false
 								},
 								{
-									"name": "Pistacchio",
-									"cat": "Tree Nuts"
-								}
-							]
+									"allergen": "Pistachio",
+									"category": "Tree nuts",
+									"canRemove": true,
+									"mayContain": false
+								},
+							],
+							"can_safegaurd": false,
+							"has_cross_contact": false
 						}
 					]
 				},
@@ -122,62 +143,87 @@
 							"name": "Cacio e Pepe",
 							"price": 17,
 							"description": "Pecorino romano cheese, butter, black pepper",
-							"hasUniquePrepEnv": true,
-							"diets": ["Vegetarian"],
+							"diets": [{ "diet": "Vegetarian", "mustRequest": false  }],
 							"allergens": [
 								{
-									"name": "Dairy",
-									"cat": "Dairy"
+									"allergen": "Cereals containing gluten",
+									"category": "Cereals containing gluten",
+									"canRemove": false,
+									"mayContain": false
 								},
 								{
-									"name": "Wheat",
-									"cat": "Gluten"
+									"allergen": "Egg",
+									"category": "Egg",
+									"canRemove": false,
+									"mayContain": false
 								},
 								{
-									"name": "Eggs",
-									"cat": "Eggs"
-								}
-							]
+									"allergen": "Dairy",
+									"category": "Dairy",
+									"canRemove": false,
+									"mayContain": false
+								},
+							],
+							"can_safegaurd": true,
+							"has_cross_contact": false
 						},
 						{
 							"id": "spaghetti-alla-nerano",
 							"name": "Spaghetti Alla Nerano",
 							"price": 28,
 							"description": "Fried zucchini, grana padano, black pepper, spaghetti verdi",
-							"hasUniquePrepEnv": true,
-							"diets": ["Vegetarian"],
+							"diets": [{ "diet": "Vegetarian", "mustRequest": false  }],
 							"allergens": [
 								{
-									"name": "Dairy",
-									"cat": "Dairy"
+									"allergen": "Cereals containing gluten",
+									"category": "Cereals containing gluten",
+									"canRemove": false,
+									"mayContain": false
 								},
 								{
-									"name": "Wheat",
-									"cat": "Gluten"
+									"allergen": "Egg",
+									"category": "Egg",
+									"canRemove": false,
+									"mayContain": false
 								},
 								{
-									"name": "Eggs",
-									"cat": "Eggs"
-								}
-							]
+									"allergen": "Dairy",
+									"category": "Dairy",
+									"canRemove": true,
+									"mayContain": false
+								},		
+							],
+							"can_safegaurd": true,
+							"has_cross_contact": false
 						},
 						{
 							"id": "tortelonni-primavera",
 							"name": "Tortelonni Primavera",
 							"price": 30,
 							"description": "Wild leek and ricotta filled pasta, morel mushrooms, brown butter emulsion",
-							"hasUniquePrepEnv": true,
-							"diets": ["Vegetarian"],
+							"diets": [{ "diet": "Vegetarian", "mustRequest": false  }],
 							"allergens": [
 								{
-									"name": "Wheat",
-									"cat": "Gluten"
+									"allergen": "Cereals containing gluten",
+									"category": "Cereals containing gluten",
+									"canRemove": false,
+									"mayContain": false
 								},
 								{
-									"name": "Eggs",
-									"cat": "Eggs"
-								}
-							]
+									"allergen": "Egg",
+									"category": "Egg",
+									"canRemove": false,
+									"mayContain": false
+								},
+								{
+									"allergen": "Dairy",
+									"category": "Dairy",
+									"canRemove": false,
+									"mayContain": false
+								},
+							],
+							"can_safegaurd": true,
+							"has_cross_contact": false
 						}
 					]
 				}
@@ -186,14 +232,8 @@
 		{
 			"id": "dinner",
 			"name": "Dinner",
-			"serviceHours": [
-				{
-					"startDay": "Wednesday",
-					"endDay": "Sunday",
-					"startTime": "5pm",
-					"endTime": "9pm"
-				}
-			],
+			"description": "Pure Italian classics",
+			"status": "Published",
 			"sections": [
 				{
 					"id": "dinner-antipasti",
@@ -204,72 +244,102 @@
 							"name": "Little Gem Salad",
 							"price": 16,
 							"description": "Little gem lettuce, sun choke chips, pickled turnips, croutons, grana padano, red wine vinaigrette",
+							"diets": [{ "diet": "Vegetarian", "mustRequest": false  }],
 							"allergens": [
 								{
-									"name": "Dairy",
-									"cat": "Dairy"
+									"allergen": "Cereals containing gluten",
+									"category": "Cereals containing gluten",
+									"canRemove": false,
+									"mayContain": false
 								},
 								{
-									"name": "Wheat",
-									"cat": "Gluten"
-								}
+									"allergen": "Dairy",
+									"category": "Dairy",
+									"canRemove": true,
+									"mayContain": false
+								},
+								{
+									"allergen": "Sulphur dioxide",
+									"category": "Sulphur dioxide",
+									"canRemove": false,
+									"mayContain": false
+								},
 							],
-							"diets": ["Vegetarian"],
-							"hasUniquePrepEnv": true
+							"can_safegaurd": false,
+							"has_cross_contact": true
 						},
 						{
 							"id": "blood-orange-salad",
 							"name": "Blood Orange Salad",
 							"price": 16,
 							"description": "Blood oranges, pickled fennel, radicchio, gem lettuce, hemp hearts, red wine vinaigrette",
-							"hasUniquePrepEnv": true,
-							"diets": ["Vegetarian", "Vegan", "Celiac"],
+							"diets": [
+								{ "diet": "Vegetarian", "mustRequest": false  },
+								{ "diet": "Vegan", "mustRequest": false  },
+								{ "diet": "Celiac", "mustRequest": false  }
+							],
 							"allergens": [
 								{
-									"name": "Sulphur Dioxide",
-									"cat": "Sulphur Dioxide"
-								}
-							]
+									"allergen": "Sulphur dioxide",
+									"category": "Sulphur dioxide",
+									"canRemove": true,
+									"mayContain": false
+								},
+							],
+							"can_safegaurd": false,
+							"has_cross_contact": true
 						},
 						{
 							"id": "steak-tartare",
 							"name": "Steak Tartare",
 							"price": 18,
 							"description": "Toasted sourdough, pickled mustard seeds, bomba, egg yolk",
-							"hasUniquePrepEnv": true,
 							"diets": [],
 							"allergens": [
 								{
-									"name": "Mustard",
-									"cat": "Mustard"
+									"allergen": "Cereals containing gluten",
+									"category": "Cereals containing gluten",
+									"canRemove": false,
+									"mayContain": false
 								},
 								{
-									"name": "Wheat",
-									"cat": "Gluten"
+									"allergen": "Egg",
+									"category": "Egg",
+									"canRemove": true,
+									"mayContain": false
 								},
 								{
-									"name": "Eggs",
-									"cat": "Eggs"
+									"allergen": "Mustard",
+									"category": "Mustard",
+									"canRemove": true,
+									"mayContain": true
 								},
 								{
-									"name": "Celery",
-									"cat": "Celery"
-								}
-							]
+									"allergen": "Celery",
+									"category": "Celery",
+									"canRemove": true,
+									"mayContain": false
+								},
+							],
+							"can_safegaurd": true,
+							"has_cross_contact": true
 						},
 						{
 							"id": "grilled-asparagus",
 							"name": "Grillled Asparagus",
 							"price": 17,
 							"description": "Fried egg white mousse, smoked prosciutto, honey, grana padano",
-							"hasUniquePrepEnv": true,
-							"diets": ["Celiac"],
+							"diets": [{ "diet": "Celiac", "mustRequest": true  }],
 							"allergens": [
 								{
-									"name": "Eggs",
-									"cat": "Eggs"
-								}
-							]
+									"allergen": "Egg",
+									"category": "Egg",
+									"canRemove": true,
+									"mayContain": false
+								},
+							],
+							"can_safegaurd": true,
+							"has_cross_contact": false
 						}
 					]
 				},
@@ -282,74 +352,99 @@
 							"name": "Snow Crab Tagliatelle",
 							"price": 38,
 							"description": "Butter poached N.S snow crab, peas, honey mushrooms",
-							"hasUniquePrepEnv": true,
 							"diets": [],
 							"allergens": [
 								{
-									"name": "Dairy",
-									"cat": "Dairy"
+									"allergen": "Cereals containing gluten",
+									"category": "Cereals containing gluten",
+									"canRemove": false,
+									"mayContain": false
 								},
 								{
-									"name": "Wheat",
-									"cat": "Gluten"
+									"allergen": "Dairy",
+									"category": "Dairy",
+									"canRemove": false,
+									"mayContain": false
 								},
 								{
-									"name": "Eggs",
-									"cat": "Eggs"
+									"allergen": "Celery",
+									"category": "Celery",
+									"canRemove": true,
+									"mayContain": false
 								},
 								{
-									"name": "Peas",
-									"cat": "Pulses"
+									"allergen": "Crustaceans",
+									"category": "Seafood",
+									"canRemove": false,
+									"mayContain": false
 								},
 								{
-									"name": "Crustaceans",
-									"cat": "Seafood"
+									"allergen": "Sesame",
+									"category": "Seeds",
+									"canRemove": true,
+									"mayContain": true
 								},
 								{
-									"name": "Sesame",
-									"cat": "Sesame"
-								}
-							]
+									"allergen": "Peas",
+									"category": "Pulses",
+									"canRemove": true,
+									"mayContain": false
+								},
+							],
+							"can_safegaurd": false,
+							"has_cross_contact": false
 						},
 						{
 							"id": "n'duja-&-bone-marrow-mafaldine",
 							"name": "N'duja & Bone Marrow Mafaldine",
 							"price": 30,
 							"description": "Roasted bone marrow and tomato ragu, spicy n'duja, charred rapini",
-							"hasUniquePrepEnv": true,
 							"diets": [],
 							"allergens": [
 								{
-									"name": "Dairy",
-									"cat": "Dairy"
+									"allergen": "Cereals containing gluten",
+									"category": "Cereals containing gluten",
+									"canRemove": false,
+									"mayContain": true
 								},
 								{
-									"name": "Wheat",
-									"cat": "Gluten"
+									"allergen": "Dairy",
+									"category": "Dairy",
+									"canRemove": false,
+									"mayContain": false
 								},
 								{
-									"name": "Eggs",
-									"cat": "Eggs"
-								}
-							]
+									"allergen": "Egg",
+									"category": "Egg",
+									"canRemove": false,
+									"mayContain": false
+								},
+							],
+							"can_safegaurd": true,
+							"has_cross_contact": true
 						},
 						{
 							"id": "octopus-tagliolini",
 							"name": "Octopus Tagliolini",
 							"price": 32,
 							"description": "Charred octopus, blistered tomatoes, taggiasche olives, anchovy brown butter sauce",
-							"hasUniquePrepEnv": true,
 							"diets": [],
 							"allergens": [
 								{
-									"name": "Dairy",
-									"cat": "Dairy"
+									"allergen": "Cereals containing gluten",
+									"category": "Cereals containing gluten",
+									"canRemove": false,
+									"mayContain": false
 								},
 								{
-									"name": "Wheat",
-									"cat": "Gluten"
-								}
-							]
+									"allergen": "Dairy",
+									"category": "Dairy",
+									"canRemove": true,
+									"mayContain": false
+								},
+							],
+							"can_safegaurd": false,
+							"has_cross_contact": false
 						}
 					]
 				},
@@ -362,44 +457,58 @@
 							"name": "30 Day Dry Aged Ribeye",
 							"price": 45,
 							"description": "Ontario 30 day dry aged ribeye, fried squash and eggplant, brown butter and yellow pepper vinaigrette, caramelized onion aioli ",
-							"hasUniquePrepEnv": false,
-							"diets": ["Celiac"],
+							"diets": [{ "diet": "Celiac", "mustRequest": false  }],
 							"allergens": [
 								{
-									"name": "Dairy",
-									"cat": "Dairy"
+									"allergen": "Sulphur dioxide",
+									"category": "Sulphur dioxide",
+									"canRemove": false,
+									"mayContain": false
 								},
 								{
-									"name": "Celery",
-									"cat": "Celery"
+									"allergen": "Dairy",
+									"category": "Dairy",
+									"canRemove": true,
+									"mayContain": false
 								},
 								{
-									"name": "Sulphur Dioxide",
-									"cat": "Sulphur Dioxide"
-								}
-							]
+									"allergen": "Celery",
+									"category": "Celery",
+									"canRemove": true,
+									"mayContain": false
+								},
+							],
+							"can_safegaurd": true,
+							"has_cross_contact": false
 						},
 						{
 							"id": "pickerel",
 							"name": "Pickerel",
 							"price": 35,
 							"description": "Pan seared pickerel, French beans, figs, macadamia nuts, creama al vino bianco",
-							"hasUniquePrepEnv": false,
-							"diets": ["Celiac"],
+							"diets": [{ "diet": "Celiac", "mustRequest": false  }],
 							"allergens": [
 								{
-									"name": "Dairy",
-									"cat": "Dairy"
+									"allergen": "Dairy",
+									"category": "Dairy",
+									"canRemove": false,
+									"mayContain": false
 								},
 								{
-									"name": "Beans",
-									"cat": "Pulses"
+									"allergen": "Beans",
+									"category": "Pulses",
+									"canRemove": true,
+									"mayContain": false
 								},
 								{
-									"name": "Macadamia",
-									"cat": "Tree Nuts"
-								}
-							]
+									"allergen": "Macadamia",
+									"category": "Tree nuts",
+									"canRemove": false,
+									"mayContain": true
+								},
+							],
+							"can_safegaurd": true,
+							"has_cross_contact": true
 						}
 					]
 				},
@@ -412,44 +521,58 @@
 							"name": "Tiramisu Pancakes",
 							"price": 15,
 							"description": "Espresso syrup, buttermilk pancakes, tiramisu mousse (These take 15 minutes, so we suggest ordering at the same time as your main course if you’re planning on having them) ",
-							"hasUniquePrepEnv": false,
 							"diets": [],
 							"allergens": [
 								{
-									"name": "Dairy",
-									"cat": "Dairy"
+									"allergen": "Cereals containing gluten",
+									"category": "Cereals containing gluten",
+									"canRemove": false,
+									"mayContain": false
 								},
 								{
-									"name": "Wheat",
-									"cat": "Gluten"
+									"allergen": "Dairy",
+									"category": "Dairy",
+									"canRemove": false,
+									"mayContain": false
 								},
 								{
-									"name": "Eggs",
-									"cat": "Eggs"
-								}
-							]
+									"allergen": "Egg",
+									"category": "Egg",
+									"canRemove": false,
+									"mayContain": false
+								},
+							],
+							"can_safegaurd": true,
+							"has_cross_contact": false
 						},
 						{
 							"id": "dark-chocolate-tart",
 							"name": "Dark Chocolate Tart",
 							"price": 10,
 							"description": "Valrhona dark chocolate, graham cracker crust, amaretto gelato, candied pecans",
-							"hasUniquePrepEnv": true,
 							"diets": [],
 							"allergens": [
 								{
-									"name": "Dairy",
-									"cat": "Dairy"
+									"allergen": "Cereals containing gluten",
+									"category": "Cereals containing gluten",
+									"canRemove": false,
+									"mayContain": true
 								},
 								{
-									"name": "Wheat",
-									"cat": "Gluten"
+									"allergen": "Dairy",
+									"category": "Dairy",
+									"canRemove": false,
+									"mayContain": false
 								},
 								{
-									"name": "Pecan",
-									"cat": "Tree Nuts"
-								}
-							]
+									"allergen": "Pecan",
+									"category": "Tree nuts",
+									"canRemove": true,
+									"mayContain": false
+								},
+							],
+							"can_safegaurd": true,
+							"has_cross_contact": false
 						}
 					]
 				}
