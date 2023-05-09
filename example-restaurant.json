@@ -1,6 +1,6 @@
 {
 	"id": "edible-eatery",
-	"name": "Edible Eatery Local",
+	"name": "Edible Eatery",
 	"phone": "416-444-1234",
 	"menus": [
 		{
@@ -18,7 +18,12 @@
 							"name": "Focaccia",
 							"price": 4,
 							"description": "House made focaccia",
-							"diets": [{ "diet": "Vegetarian", "mustRequest": false  }],
+							"diets": [
+								{
+									"diet": "Vegetarian",
+									"mustRequest": false
+								}
+							],
 							"allergens": [
 								{
 									"allergen": "Dairy",
@@ -43,7 +48,7 @@
 									"category": "Lupin",
 									"canRemove": true,
 									"mayContain": true
-								},
+								}
 							],
 							"can_safegaurd": true,
 							"has_cross_contact": true
@@ -54,9 +59,18 @@
 							"price": 10,
 							"description": "Castelvetrano and taggiasche olives",
 							"diets": [
-								{ "diet": "Vegetarian", "mustRequest": false  }
-								{ "diet": "Vegan", "mustRequest": false  }
-								{ "diet": "Celia", "mustRequest": false  }
+								{
+									"diet": "Vegetarian",
+									"mustRequest": false
+								},
+								{
+									"diet": "Vegan",
+									"mustRequest": false
+								},
+								{
+									"diet": "Celia",
+									"mustRequest": false
+								}
 							],
 							"allergens": [],
 							"can_safegaurd": true,
@@ -67,7 +81,12 @@
 							"name": "Cucumber Salad",
 							"price": 15,
 							"description": "Candied pine nuts, cannellini beans, poblano peppers, croutons, buttermilk dressing",
-							"diets": [{ "diet": "Vegetarian", "mustRequest": false  }],
+							"diets": [
+								{
+									"diet": "Vegetarian",
+									"mustRequest": false
+								}
+							],
 							"allergens": [
 								{
 									"allergen": "Dairy",
@@ -104,7 +123,7 @@
 									"category": "Tree nuts",
 									"canRemove": true,
 									"mayContain": false
-								},
+								}
 							],
 							"can_safegaurd": true,
 							"has_cross_contact": false
@@ -114,7 +133,16 @@
 							"name": "Burata",
 							"price": 19,
 							"description": "Strawberries, pistachio, aged balsamic vinegar",
-							"diets": [{ "diet": "Vegetarian", "mustRequest": false  }, { "diet": "Celiac", "mustRequest": true  }],
+							"diets": [
+								{
+									"diet": "Vegetarian",
+									"mustRequest": false
+								},
+								{
+									"diet": "Celiac",
+									"mustRequest": true
+								}
+							],
 							"allergens": [
 								{
 									"allergen": "Dariy",
@@ -127,7 +155,7 @@
 									"category": "Tree nuts",
 									"canRemove": true,
 									"mayContain": false
-								},
+								}
 							],
 							"can_safegaurd": false,
 							"has_cross_contact": false
@@ -143,7 +171,12 @@
 							"name": "Cacio e Pepe",
 							"price": 17,
 							"description": "Pecorino romano cheese, butter, black pepper",
-							"diets": [{ "diet": "Vegetarian", "mustRequest": false  }],
+							"diets": [
+								{
+									"diet": "Vegetarian",
+									"mustRequest": false
+								}
+							],
 							"allergens": [
 								{
 									"allergen": "Cereals containing gluten",
@@ -162,7 +195,7 @@
 									"category": "Dairy",
 									"canRemove": false,
 									"mayContain": false
-								},
+								}
 							],
 							"can_safegaurd": true,
 							"has_cross_contact": false
@@ -172,7 +205,12 @@
 							"name": "Spaghetti Alla Nerano",
 							"price": 28,
 							"description": "Fried zucchini, grana padano, black pepper, spaghetti verdi",
-							"diets": [{ "diet": "Vegetarian", "mustRequest": false  }],
+							"diets": [
+								{
+									"diet": "Vegetarian",
+									"mustRequest": false
+								}
+							],
 							"allergens": [
 								{
 									"allergen": "Cereals containing gluten",
@@ -191,7 +229,7 @@
 									"category": "Dairy",
 									"canRemove": true,
 									"mayContain": false
-								},		
+								}
 							],
 							"can_safegaurd": true,
 							"has_cross_contact": false
@@ -201,7 +239,12 @@
 							"name": "Tortelonni Primavera",
 							"price": 30,
 							"description": "Wild leek and ricotta filled pasta, morel mushrooms, brown butter emulsion",
-							"diets": [{ "diet": "Vegetarian", "mustRequest": false  }],
+							"diets": [
+								{
+									"diet": "Vegetarian",
+									"mustRequest": false
+								}
+							],
 							"allergens": [
 								{
 									"allergen": "Cereals containing gluten",
@@ -220,7 +263,7 @@
 									"category": "Dairy",
 									"canRemove": false,
 									"mayContain": false
-								},
+								}
 							],
 							"can_safegaurd": true,
 							"has_cross_contact": false
@@ -244,7 +287,12 @@
 							"name": "Little Gem Salad",
 							"price": 16,
 							"description": "Little gem lettuce, sun choke chips, pickled turnips, croutons, grana padano, red wine vinaigrette",
-							"diets": [{ "diet": "Vegetarian", "mustRequest": false  }],
+							"diets": [
+								{
+									"diet": "Vegetarian",
+									"mustRequest": false
+								}
+							],
 							"allergens": [
 								{
 									"allergen": "Cereals containing gluten",
@@ -263,7 +311,7 @@
 									"category": "Sulphur dioxide",
 									"canRemove": false,
 									"mayContain": false
-								},
+								}
 							],
 							"can_safegaurd": false,
 							"has_cross_contact": true
@@ -274,9 +322,18 @@
 							"price": 16,
 							"description": "Blood oranges, pickled fennel, radicchio, gem lettuce, hemp hearts, red wine vinaigrette",
 							"diets": [
-								{ "diet": "Vegetarian", "mustRequest": false  },
-								{ "diet": "Vegan", "mustRequest": false  },
-								{ "diet": "Celiac", "mustRequest": false  }
+								{
+									"diet": "Vegetarian",
+									"mustRequest": false
+								},
+								{
+									"diet": "Vegan",
+									"mustRequest": false
+								},
+								{
+									"diet": "Celiac",
+									"mustRequest": false
+								}
 							],
 							"allergens": [
 								{
@@ -284,7 +341,7 @@
 									"category": "Sulphur dioxide",
 									"canRemove": true,
 									"mayContain": false
-								},
+								}
 							],
 							"can_safegaurd": false,
 							"has_cross_contact": true
@@ -319,7 +376,7 @@
 									"category": "Celery",
 									"canRemove": true,
 									"mayContain": false
-								},
+								}
 							],
 							"can_safegaurd": true,
 							"has_cross_contact": true
@@ -329,14 +386,19 @@
 							"name": "Grillled Asparagus",
 							"price": 17,
 							"description": "Fried egg white mousse, smoked prosciutto, honey, grana padano",
-							"diets": [{ "diet": "Celiac", "mustRequest": true  }],
+							"diets": [
+								{
+									"diet": "Celiac",
+									"mustRequest": true
+								}
+							],
 							"allergens": [
 								{
 									"allergen": "Egg",
 									"category": "Egg",
 									"canRemove": true,
 									"mayContain": false
-								},
+								}
 							],
 							"can_safegaurd": true,
 							"has_cross_contact": false
@@ -389,7 +451,7 @@
 									"category": "Pulses",
 									"canRemove": true,
 									"mayContain": false
-								},
+								}
 							],
 							"can_safegaurd": false,
 							"has_cross_contact": false
@@ -418,7 +480,7 @@
 									"category": "Egg",
 									"canRemove": false,
 									"mayContain": false
-								},
+								}
 							],
 							"can_safegaurd": true,
 							"has_cross_contact": true
@@ -441,7 +503,7 @@
 									"category": "Dairy",
 									"canRemove": true,
 									"mayContain": false
-								},
+								}
 							],
 							"can_safegaurd": false,
 							"has_cross_contact": false
@@ -457,7 +519,12 @@
 							"name": "30 Day Dry Aged Ribeye",
 							"price": 45,
 							"description": "Ontario 30 day dry aged ribeye, fried squash and eggplant, brown butter and yellow pepper vinaigrette, caramelized onion aioli ",
-							"diets": [{ "diet": "Celiac", "mustRequest": false  }],
+							"diets": [
+								{
+									"diet": "Celiac",
+									"mustRequest": false
+								}
+							],
 							"allergens": [
 								{
 									"allergen": "Sulphur dioxide",
@@ -476,7 +543,7 @@
 									"category": "Celery",
 									"canRemove": true,
 									"mayContain": false
-								},
+								}
 							],
 							"can_safegaurd": true,
 							"has_cross_contact": false
@@ -486,7 +553,12 @@
 							"name": "Pickerel",
 							"price": 35,
 							"description": "Pan seared pickerel, French beans, figs, macadamia nuts, creama al vino bianco",
-							"diets": [{ "diet": "Celiac", "mustRequest": false  }],
+							"diets": [
+								{
+									"diet": "Celiac",
+									"mustRequest": false
+								}
+							],
 							"allergens": [
 								{
 									"allergen": "Dairy",
@@ -505,7 +577,7 @@
 									"category": "Tree nuts",
 									"canRemove": false,
 									"mayContain": true
-								},
+								}
 							],
 							"can_safegaurd": true,
 							"has_cross_contact": true
@@ -540,7 +612,7 @@
 									"category": "Egg",
 									"canRemove": false,
 									"mayContain": false
-								},
+								}
 							],
 							"can_safegaurd": true,
 							"has_cross_contact": false
@@ -569,7 +641,7 @@
 									"category": "Tree nuts",
 									"canRemove": true,
 									"mayContain": false
-								},
+								}
 							],
 							"can_safegaurd": true,
 							"has_cross_contact": false
