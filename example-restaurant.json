@@ -1,6 +1,6 @@
 {
-	"id": "example-restaurant",
-	"name": "Edible Eatery Local",
+	"id": "edible-eatery",
+	"name": "Edible Eatery",
 	"phone": "416-444-1234",
 	"menus": [
 		{
@@ -50,7 +50,7 @@
 									"mayContain": true
 								}
 							],
-							"can_safegaurd": true,
+							"can_safeguard": true,
 							"has_cross_contact": true
 						},
 						{
@@ -73,7 +73,7 @@
 								}
 							],
 							"allergens": [],
-							"can_safegaurd": true,
+							"can_safeguard": true,
 							"has_cross_contact": false
 						},
 						{
@@ -125,7 +125,7 @@
 									"mayContain": false
 								}
 							],
-							"can_safegaurd": true,
+							"can_safeguard": true,
 							"has_cross_contact": false
 						},
 						{
@@ -157,7 +157,7 @@
 									"mayContain": false
 								}
 							],
-							"can_safegaurd": false,
+							"can_safeguard": false,
 							"has_cross_contact": false
 						}
 					]
@@ -197,7 +197,7 @@
 									"mayContain": false
 								}
 							],
-							"can_safegaurd": true,
+							"can_safeguard": true,
 							"has_cross_contact": false
 						},
 						{
@@ -231,7 +231,7 @@
 									"mayContain": false
 								}
 							],
-							"can_safegaurd": true,
+							"can_safeguard": true,
 							"has_cross_contact": false
 						},
 						{
@@ -265,7 +265,7 @@
 									"mayContain": false
 								}
 							],
-							"can_safegaurd": true,
+							"can_safeguard": true,
 							"has_cross_contact": false
 						}
 					]
@@ -313,7 +313,7 @@
 									"mayContain": false
 								}
 							],
-							"can_safegaurd": false,
+							"can_safeguard": false,
 							"has_cross_contact": true
 						},
 						{
@@ -343,7 +343,7 @@
 									"mayContain": false
 								}
 							],
-							"can_safegaurd": false,
+							"can_safeguard": false,
 							"has_cross_contact": true
 						},
 						{
@@ -378,7 +378,7 @@
 									"mayContain": false
 								}
 							],
-							"can_safegaurd": true,
+							"can_safeguard": true,
 							"has_cross_contact": true
 						},
 						{
@@ -400,7 +400,7 @@
 									"mayContain": false
 								}
 							],
-							"can_safegaurd": true,
+							"can_safeguard": true,
 							"has_cross_contact": false
 						}
 					]
@@ -453,7 +453,7 @@
 									"mayContain": false
 								}
 							],
-							"can_safegaurd": false,
+							"can_safeguard": false,
 							"has_cross_contact": false
 						},
 						{
@@ -482,7 +482,7 @@
 									"mayContain": false
 								}
 							],
-							"can_safegaurd": true,
+							"can_safeguard": true,
 							"has_cross_contact": true
 						},
 						{
@@ -505,7 +505,7 @@
 									"mayContain": false
 								}
 							],
-							"can_safegaurd": false,
+							"can_safeguard": false,
 							"has_cross_contact": false
 						}
 					]
@@ -545,7 +545,7 @@
 									"mayContain": false
 								}
 							],
-							"can_safegaurd": true,
+							"can_safeguard": true,
 							"has_cross_contact": false
 						},
 						{
@@ -579,7 +579,7 @@
 									"mayContain": true
 								}
 							],
-							"can_safegaurd": true,
+							"can_safeguard": true,
 							"has_cross_contact": true
 						}
 					]
@@ -614,7 +614,7 @@
 									"mayContain": false
 								}
 							],
-							"can_safegaurd": true,
+							"can_safeguard": true,
 							"has_cross_contact": false
 						},
 						{
@@ -643,7 +643,7 @@
 									"mayContain": false
 								}
 							],
-							"can_safegaurd": true,
+							"can_safeguard": true,
 							"has_cross_contact": false
 						}
 					]
