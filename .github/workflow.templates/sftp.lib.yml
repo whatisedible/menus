@@ -1,0 +1,6 @@
+#@ def sftp_bunny_copy(name, src, dst):
+name: #@ "Copy %s to bunny.net CDN" % name
+run: #@ "mkdir -p ~/.ssh && ssh-keyscan -H ny.storage.bunnycdn.com >> ~/.ssh/known_hosts && echo -e 'put -r %s %s' | sshpass -e sftp -oBatchMode=no -b - whatisedible@ny.storage.bunnycdn.com" % (src, dst)
+env:
+    SSHPASS: ${{ secrets.BUNNY_NET_SFTP_PASS }}
+#@ end

@@ -1,0 +1,40 @@
+#@ load("github.lib.yml", "checkout", "cache_node", "setup_node")
+#@ load("rush.lib.yml", "rush_add_path", "rush_install", "rush_build")
+#@ load("sftp.lib.yml", "sftp_bunny_copy")
+name: Deploy menu root
+
+"on":
+  push:
+    branches:
+      - '*'
+    # paths:
+    #   -  #@ '**/*.json'
+    #   -  #@ '.github/**/*'
+
+jobs:
+  deploy-production:
+    name: Deploy to Cloudflare menus-beta & Bunny menus
+    runs-on: ubuntu-latest
+    steps:
+      -  #@ checkout()
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GH_PAT }}
+          repository: 'whatisedible/Edible'
+      - run:|
+        pwd
+        ls -l
+        ls -l ..
+      -  #@ setup_node()
+      -  #@ cache_node()
+      -  #@ rush_add_path()
+      -  #@ rush_install()
+      -  #@ rush_build()
+      - name: Build menu app
+        run: cd apps/menu && rushx build:prod
+        env:
+          BASE_PATH: ""
+          VITE_ACKEE_ID: aaabec74-24f9-4aca-89ad-f0fd54e2944f
+      -  #@ sftp_bunny_copy(name="built app", src="apps/menu/build/*", dst="/")
+      - name: Output link to deployed menu
+        run: echo You can view the menu on https://menus.whatisedible.com/ | tee -a $GITHUB_STEP_SUMMARY

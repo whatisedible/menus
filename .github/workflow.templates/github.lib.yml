@@ -1,0 +1,33 @@
+#@ def checkout(fetch_depth=None):
+name: Checkout repository
+uses: actions/checkout@v2
+#@ if fetch_depth != None:
+with:
+  fetch-depth: #@ fetch_depth
+  node_version: "16"
+#@ end
+#@ end
+
+#@ def cache_node():
+name: Cache node modules
+uses: actions/cache@v2
+with:
+  path: |
+    ~/.rush
+    ~/.pnpm-store
+    common/temp
+    **/node_modules
+  key: ${{ runner.os }}-modules-node16-v1-${{ hashFiles('**/pnpm-lock.yaml') }}
+#@ end
+
+#@ def setup_node():
+name: Setup node
+uses: actions/setup-node@v3
+with:
+  node-version: "18.15.0"
+#@ end
+
+#@ def save_current_sha():
+name: Determine current git SHA and set it for subsequent steps
+run: echo CURRENT_SHA=$(git rev-parse --short HEAD) >> $GITHUB_ENV
+#@ end
