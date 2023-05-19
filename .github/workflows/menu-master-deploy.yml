@@ -2,6 +2,7 @@ name: Deploy menu root
 "on":
   push:
     branches:
+    - feature/CI
     - '*'
 jobs:
   deploy-production:
@@ -10,11 +11,16 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-    - uses: actions/checkout@v3
-      with:
-        token: ${{ secrets.GH_PAT }}
-        repository: whatisedible/Edible
-    - run:| pwd ls -l ls -l ..
+    - name: Setup private SSH key to clone code repo
+      run: |
+        eval `ssh-agent -s`
+        ssh-add - <<< '${{ secrets.PRIVATE_SSH_KEY }}'
+        git clone git@github.com:whatisedible/menus
+    - name: DEBUG
+      run: |
+        pwd
+        ls -l
+        ls -l ..
     - name: Setup node
       uses: actions/setup-node@v3
       with:
