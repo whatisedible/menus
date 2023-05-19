@@ -15,12 +15,7 @@ jobs:
       run: |
         eval `ssh-agent -s`
         ssh-add - <<< '${{ secrets.PRIVATE_SSH_KEY }}'
-        git clone git@github.com:whatisedible/menus
-    - name: DEBUG
-      run: |
-        pwd
-        ls -l
-        ls -l ..
+        git clone git@github.com:whatisedible/Edible
     - name: Setup node
       uses: actions/setup-node@v3
       with:
@@ -36,18 +31,24 @@ jobs:
         key: ${{ runner.os }}-modules-node16-v1-${{ hashFiles('**/pnpm-lock.yaml') }}
     - name: Add local rush scripts to PATH
       run: echo "${PWD}"/common/scripts >> $GITHUB_PATH
+      working-directory: ./Edible
     - name: Install packages
       run: rush update
+      working-directory: ./Edible
     - name: Build packages
       run: rush build
+      working-directory: ./Edible
     - name: Build menu app
       run: cd apps/menu && rushx build:prod
       env:
         BASE_PATH: ""
         VITE_ACKEE_ID: aaabec74-24f9-4aca-89ad-f0fd54e2944f
+      working-directory: ./Edible
     - name: Copy built app to bunny.net CDN
       run: mkdir -p ~/.ssh && ssh-keyscan -H ny.storage.bunnycdn.com >> ~/.ssh/known_hosts && echo -e 'put -r apps/menu/build/* /' | sshpass -e sftp -oBatchMode=no -b - whatisedible@ny.storage.bunnycdn.com
       env:
         SSHPASS: ${{ secrets.BUNNY_NET_SFTP_PASS }}
+      working-directory: ./Edible
     - name: Output link to deployed menu
       run: echo You can view the menu on https://menus.whatisedible.com/ | tee -a $GITHUB_STEP_SUMMARY
+      working-directory: ./Edible
