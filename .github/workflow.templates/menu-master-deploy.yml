@@ -7,9 +7,9 @@ name: Deploy menu root
   push:
     branches:
       - '*'
-    # paths:
-    #   -  #@ '**/*.json'
-    #   -  #@ '.github/**/*'
+    #! paths:
+    #!   -  #@ '**/*.json'
+    #!   -  #@ '.github/**/*'
 
 jobs:
   deploy-production:

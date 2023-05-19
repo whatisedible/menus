@@ -39,6 +39,7 @@ for FILE in ${script_dir}/workflow.templates/*.yml; do    # for each *.txt file
 done
 
 for template in ${templates}; do
+    set -e
     templatename=$(basename -- "$template")
     echo "Processing $templatename"
     $ytt_path -f ${template} ${libraries} > ${script_dir}/workflows/${templatename}

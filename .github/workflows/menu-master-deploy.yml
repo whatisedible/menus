@@ -1,0 +1,47 @@
+name: Deploy menu root
+"on":
+  push:
+    branches:
+    - '*'
+jobs:
+  deploy-production:
+    name: Deploy to Cloudflare menus-beta & Bunny menus
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GH_PAT }}
+        repository: whatisedible/Edible
+    - run:| pwd ls -l ls -l ..
+    - name: Setup node
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18.15.0
+    - name: Cache node modules
+      uses: actions/cache@v2
+      with:
+        path: |
+          ~/.rush
+          ~/.pnpm-store
+          common/temp
+          **/node_modules
+        key: ${{ runner.os }}-modules-node16-v1-${{ hashFiles('**/pnpm-lock.yaml') }}
+    - name: Add local rush scripts to PATH
+      run: echo "${PWD}"/common/scripts >> $GITHUB_PATH
+    - name: Install packages
+      run: rush update
+    - name: Build packages
+      run: rush build
+    - name: Build menu app
+      run: cd apps/menu && rushx build:prod
+      env:
+        BASE_PATH: ""
+        VITE_ACKEE_ID: aaabec74-24f9-4aca-89ad-f0fd54e2944f
+    - name: Copy built app to bunny.net CDN
+      run: mkdir -p ~/.ssh && ssh-keyscan -H ny.storage.bunnycdn.com >> ~/.ssh/known_hosts && echo -e 'put -r apps/menu/build/* /' | sshpass -e sftp -oBatchMode=no -b - whatisedible@ny.storage.bunnycdn.com
+      env:
+        SSHPASS: ${{ secrets.BUNNY_NET_SFTP_PASS }}
+    - name: Output link to deployed menu
+      run: echo You can view the menu on https://menus.whatisedible.com/ | tee -a $GITHUB_STEP_SUMMARY
