@@ -145,7 +145,7 @@
 							],
 							"allergens": [
 								{
-									"allergen": "Dariy",
+									"allergen": "Dairy",
 									"category": "Dairy",
 									"canRemove": true,
 									"mayContain": false
