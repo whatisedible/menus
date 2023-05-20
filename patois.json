@@ -1,0 +1,611 @@
+{
+  "id": "patois",
+  "name": "Patois",
+  "email": "hello@patoistoronto.com",
+  "menus": [
+    {
+      "id": "dinner",
+      "name": "Dinner",
+      "description": "Can't decide? Order it all!",
+      "status": "Published",
+      "sections": [
+        {
+          "name": "The Whole Shebang",
+          "items": [
+            {
+              "name": "Feast for 3-4",
+              "description": "4 Jamaican PattiesnDouble Trini Mac PienDouble Order Juicy Jerk ChickennDouble Order O.G. Fried Chickenn2 Chinese Pineapple Bun BurgersnColeslawnLarge Rice & Peasw/OxtailGravynKale SaladnMichiba Crispy Brussels SproutsnScotch Bonnet Hot SaucenGarlic ",
+              "price": 195,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": []
+            },
+            {
+              "name": "Feast for 1-2",
+              "description": "2 Jamaican PattiesnTrini Mac PienSingle Order Juicy Jerk ChickennSingle Order O.G. Fried ChickennChinese Pineapple Bun BurgernJamaican ColeslawnMedium Rice & Peas W/ Oxtail Gravy",
+              "price": 99,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": []
+            }
+          ]
+        },
+        {
+          "name": "Features",
+          "items": [
+            {
+              "name": "Popcorn Shrimp Fried Rice",
+              "description": "tobiko, gailan, egg, lime & jalapeño aioli",
+              "price": 23,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Crustaceans",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Seafood"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Fish",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Fish"
+                }
+              ]
+            },
+            {
+              "name": "Jerk Pork Belly Yakisoba",
+              "description": "oxtail gravy stir-fried fresh ramen noodles, nori",
+              "price": 26,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Crustaceans",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Seafood"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Fish",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Fish"
+                },
+                {
+                  "allergen": "Molluscs",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Seafood"
+                }
+              ]
+            },
+            {
+              "name": "Cookie Butter French Toast",
+              "description": "hong kong style, golden syrup",
+              "price": 13,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": true,
+              "diets": [{ "diet": "Vegetarian", "mustRequest": false }],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                },
+                {
+                  "allergen": "Almond",
+                  "mayContain": true,
+                  "canRemove": false,
+                  "category": "Nuts"
+                },
+                {
+                  "allergen": "Brazil nut",
+                  "mayContain": true,
+                  "canRemove": false,
+                  "category": "Nuts"
+                },
+                {
+                  "allergen": "Cashew",
+                  "mayContain": true,
+                  "canRemove": false,
+                  "category": "Nuts"
+                },
+                {
+                  "allergen": "Chestnut",
+                  "mayContain": true,
+                  "canRemove": false,
+                  "category": "Nuts"
+                },
+                {
+                  "allergen": "Hazelnut",
+                  "mayContain": true,
+                  "canRemove": false,
+                  "category": "Nuts"
+                },
+                {
+                  "allergen": "Macadamia",
+                  "mayContain": true,
+                  "canRemove": false,
+                  "category": "Nuts"
+                },
+                {
+                  "allergen": "Pecan",
+                  "mayContain": true,
+                  "canRemove": false,
+                  "category": "Nuts"
+                },
+                {
+                  "allergen": "Pistachio",
+                  "mayContain": true,
+                  "canRemove": false,
+                  "category": "Nuts"
+                },
+                {
+                  "allergen": "Walnut",
+                  "mayContain": true,
+                  "canRemove": false,
+                  "category": "Nuts"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Patois Classics",
+          "items": [
+            {
+              "name": "Jamaican Patty Double Down",
+              "description": "bacon, swiss cheese fondue, garlic sauce, sriracha",
+              "price": 11,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                }
+              ]
+            },
+            {
+              "name": "Michiba Crispy Brussels Sprouts",
+              "description": "wilted spinach, asian pear, wakame, radish, shiro miso dressing",
+              "price": 17.5,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [
+                { "diet": "Vegan", "mustRequest": true },
+                { "diet": "Vegetarian", "mustRequest": true }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Crustaceans",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Seafood"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Fish",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Fish"
+                },
+                {
+                  "allergen": "Molluscs",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Seafood"
+                },
+                {
+                  "allergen": "Sesame",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Seeds"
+                }
+              ]
+            },
+            {
+              "name": "O.G Crispy Cauliflower",
+              "description": "sweet sriracha, house pickles",
+              "price": 19.5,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [
+                { "diet": "Vegan", "mustRequest": true },
+                { "diet": "Vegetarian", "mustRequest": false }
+              ],
+              "allergens": []
+            },
+            {
+              "name": "Trini Mac Pie",
+              "description": "cheddar custard, scallions",
+              "price": 13.5,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [{ "diet": "Vegetarian", "mustRequest": false }],
+              "allergens": []
+            },
+            {
+              "name": "Chinese 'Pineapple Bun' Burger",
+              "description": "double smash burger, oyster sauce mayo, hickory sticks, shrimp chips",
+              "price": 26,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": false,
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Crustaceans",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Seafood"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Dairy"
+                },
+                {
+                  "allergen": "Molluscs",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Seafood"
+                },
+                {
+                  "allergen": "Sesame",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Seeds"
+                }
+              ]
+            },
+            {
+              "name": "O.G Fried Chicken",
+              "description": "",
+              "price": 19,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Dairy"
+                }
+              ]
+            },
+            {
+              "name": "Juicy Jerk Chicken",
+              "description": "smoked, rotisserie roasted, garlic sauce",
+              "price": 19,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                }
+              ]
+            },
+            {
+              "name": "Rice and Peas",
+              "description": "",
+              "price": 8,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [
+                { "diet": "Vegan", "mustRequest": false },
+                { "diet": "Vegetarian", "mustRequest": false },
+                { "diet": "Celiac", "mustRequest": false }
+              ],
+              "allergens": []
+            },
+            {
+              "name": "Jerk Chicken Chow Mein",
+              "description": "crispy egg noodles, pulled jerk chicken, shiitake, bok choy, oyster sauce",
+              "price": 27,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [{ "diet": "Vegetarian", "mustRequest": true }],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Crustaceans",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Seafood"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Molluscs",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Seafood"
+                }
+              ]
+            },
+            {
+              "name": "Jamaican Oxtail",
+              "description": "brown stew, spinner dumplings, crispy shallots, served with rice & peas and coleslaw",
+              "price": 28,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Crustaceans",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Seafood"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Dairy"
+                },
+                {
+                  "allergen": "Molluscs",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Seafood"
+                }
+              ]
+            },
+            {
+              "name": "Jamaican Coleslaw",
+              "description": "creamy cabbage, carrot, scallions",
+              "price": 7.5,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [
+                { "diet": "Vegan", "mustRequest": true },
+                { "diet": "Vegetarian", "mustRequest": false }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                }
+              ]
+            },
+            {
+              "name": "Kale & Clementine Salad",
+              "description": "beet, carrot, mustard vinaigrette, spiced crispy noodles",
+              "price": 16,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [
+                { "diet": "Vegan", "mustRequest": false },
+                { "diet": "Vegetarian", "mustRequest": false }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Mustard",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Mustard"
+                },
+                {
+                  "allergen": "Sesame",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Seeds"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sauces",
+          "items": [
+            {
+              "name": "Garlic Sauce",
+              "description": "",
+              "price": 1.75,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                }
+              ]
+            },
+            {
+              "name": "Sweet Sriracha",
+              "description": "",
+              "price": 1.75,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": []
+            },
+            {
+              "name": "Oyster Mayo",
+              "description": "",
+              "price": 1.75,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                }
+              ]
+            },
+            {
+              "name": "Fermented Pineapple & Scotch Bonnet Hot Sauce",
+              "description": "",
+              "price": 0,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
