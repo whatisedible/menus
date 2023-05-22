@@ -1,0 +1,894 @@
+{
+  "id": "deanston-bakery",
+  "name": "Deanston Bakery",
+  "email": "hello@deanstonbakery.com",
+  "menus": [
+    {
+      "id": "bread",
+      "name": "Bread",
+      "description": "",
+      "status": "Published",
+      "sections": [
+        {
+          "name": "Sourdough",
+          "items": [
+            {
+              "name": "Traditional Sourdough",
+              "description": "",
+              "price": 4.5,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                }
+              ]
+            },
+            {
+              "name": "Deli Rye Sourdough",
+              "description": "30% Rye with caraway seeds.",
+              "price": 4.5,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                }
+              ]
+            },
+            {
+              "name": "Seeded Sourdough",
+              "description": "",
+              "price": 4.5,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                }
+              ]
+            },
+            {
+              "name": "100% Rye Sourdough",
+              "description": "",
+              "price": 3.5,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": []
+            }
+          ]
+        },
+        {
+          "name": "Bagels",
+          "items": [
+            {
+              "name": "Plain Bagel",
+              "description": "",
+              "price": 1.2,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                }
+              ]
+            },
+            {
+              "name": "Sesame Bagel",
+              "description": "",
+              "price": 1.2,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Sesame",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Seeds"
+                }
+              ]
+            },
+            {
+              "name": "Caraway Seed Bagel",
+              "description": "",
+              "price": 1.2,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Other",
+          "items": [
+            {
+              "name": "Baguette",
+              "description": "White baguette",
+              "price": 0,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [{ "diet": "Vegan", "mustRequest": false }],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sandwiches",
+      "name": "Sandwiches",
+      "description": "",
+      "status": "Published",
+      "sections": [
+        {
+          "name": "Bagels",
+          "items": [
+            {
+              "name": "Pastrami Bagel",
+              "description": "Bagel with a bit of mustard, lettuce, pastrami, gherkins and cheddar.",
+              "price": 0,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Mustard",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Mustard"
+                },
+                {
+                  "allergen": "Sesame",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Seeds"
+                }
+              ]
+            },
+            {
+              "name": "Brie Bagel",
+              "description": "Brie with chilly jam, spiced carrot and lettuce",
+              "price": 6,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [
+                { "diet": "Vegetarian", "mustRequest": false },
+                { "diet": "Pescatarian", "mustRequest": false }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                }
+              ]
+            },
+            {
+              "name": "Salmon Bagel",
+              "description": "Cream cheese and smoked salmon",
+              "price": 6,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [{ "diet": "Pescatarian", "mustRequest": false }],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Fish",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Fish"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                },
+                {
+                  "allergen": "Sesame",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Seeds"
+                }
+              ]
+            },
+            {
+              "name": "Tuna Mayo Bagel",
+              "description": "Tuna mayo, tomato, cucumber, lettuce",
+              "price": 6,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [{ "diet": "Pescatarian", "mustRequest": false }],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Fish",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Fish"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                },
+                {
+                  "allergen": "Sesame",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Seeds"
+                }
+              ]
+            },
+            {
+              "name": "Ham & Cheese Bagel",
+              "description": "Ham, cheddar, mayo, chipotle slaw",
+              "price": 6,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                },
+                {
+                  "allergen": "Sesame",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Seeds"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sandwiches",
+          "items": [
+            {
+              "name": "Chicken Chorizo Sandwich",
+              "description": "Chicken Chorizo made on traditional sourdough. Available Tuesday to Saturday",
+              "price": 7,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                }
+              ]
+            },
+            {
+              "name": "Chicken Basil Sandwich",
+              "description": "Chicken Basil made on a traditional sourdough. Available Tuesday to Saturdayn",
+              "price": 7,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                }
+              ]
+            },
+            {
+              "name": "Hummus Sandwich",
+              "description": "Hummus and roasted vegetables. On Monday Hummus sandwich is made on a white loaf.nTuesday to Saturday Hummus made on traditional sourdough.",
+              "price": 7,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [
+                { "diet": "Vegan", "mustRequest": false },
+                { "diet": "Vegetarian", "mustRequest": false },
+                { "diet": "Pescatarian", "mustRequest": false }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                }
+              ]
+            },
+            {
+              "name": "Chicken Horseradish Sandwich",
+              "description": "Chicken Horseradish made on traditional sourdough. Available Tuesday to Saturday",
+              "price": 7,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                }
+              ]
+            },
+            {
+              "name": "Egg Mayo Sandwich",
+              "description": "Egg mayo, lettuce and crispy onions. Available Tuesday to Saturday",
+              "price": 6,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [{ "diet": "Vegetarian", "mustRequest": false }],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Baguettes",
+          "items": [
+            {
+              "name": "Hummus Baguette",
+              "description": "Baguette with hummus, sweet potato, broccoli, spicy carrots, lettuce.",
+              "price": 6,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [
+                { "diet": "Vegan", "mustRequest": false },
+                { "diet": "Vegetarian", "mustRequest": false }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                }
+              ]
+            },
+            {
+              "name": "Chicken Chorizo Baguette",
+              "description": "Baguette with chicken mayo, chipotle slaw, chorizo.",
+              "price": 6,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                }
+              ]
+            },
+            {
+              "name": "Chicken Basil Baguette",
+              "description": "Baguette with chicken basil mayo, tomato, lettucenn",
+              "price": 6,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                }
+              ]
+            },
+            {
+              "name": "Chicken horseradish baguette",
+              "description": "Chicken horseradish mayo with red onion and gherkins on a baguette.",
+              "price": 6,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sweat-treats",
+      "name": "Sweat Treats",
+      "description": "",
+      "status": "Published",
+      "sections": [
+        {
+          "name": "Buns",
+          "items": [
+            {
+              "name": "Cinnamon Buns",
+              "description": "Topped with your choice of citrus glaze or icing sugar",
+              "price": 2.5,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                }
+              ]
+            },
+            {
+              "name": "Chocolate and Orange Buns",
+              "description": "",
+              "price": 2.5,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                }
+              ]
+            },
+            {
+              "name": "Cardamon Buns",
+              "description": "",
+              "price": 2.5,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                }
+              ]
+            },
+            {
+              "name": "Crumble Bun",
+              "description": "Made with oats, and seasonal fruit.",
+              "price": 2.5,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Brownie",
+          "items": [
+            {
+              "name": "Belgium Chocolate Brownie",
+              "description": "",
+              "price": 0,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                }
+              ]
+            },
+            {
+              "name": "Salted Caramel Brownie",
+              "description": "",
+              "price": 0,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                }
+              ]
+            },
+            {
+              "name": "Chocolate Chip Cookie",
+              "description": "",
+              "price": 0,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                }
+              ]
+            },
+            {
+              "name": "Honey Cake",
+              "description": "Six Honey flavoured sponges layered with cream.",
+              "price": 0,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                }
+              ]
+            },
+            {
+              "name": "Coconut, Strawberry Shortbread",
+              "description": "Shortbread base with strawberry jam and coconut topping.",
+              "price": 3.5,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": true,
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                },
+                {
+                  "allergen": "Coconut",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Nuts"
+                }
+              ]
+            },
+            {
+              "name": "Sesame Cookie",
+              "description": "",
+              "price": 1.5,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                },
+                {
+                  "allergen": "Sesame",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Seeds"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
