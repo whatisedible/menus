@@ -1,0 +1,748 @@
+{
+  "id": "the-paper-mill",
+  "name": "The Paper mill",
+  "email": "hello@thepapermill.com",
+  "menus": [
+    {
+      "id": "dinner",
+      "name": "Dinner",
+      "description": "",
+      "status": "Published",
+      "sections": [
+        {
+          "name": "Starters",
+          "items": [
+            {
+              "name": "Soup of the day",
+              "description": "bloomer bread",
+              "price": 6,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [{ "diet": "Vegetarian", "mustRequest": false }],
+              "allergens": [
+                {
+                  "allergen": "Celery",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Celery"
+                },
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                }
+              ]
+            },
+            {
+              "name": "Haggis bon bons",
+              "description": "honey mustard mayo",
+              "price": 9,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Celery",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Celery"
+                },
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Mustard",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Mustard"
+                }
+              ]
+            },
+            {
+              "name": "Pepper, courgette & aubergine bruschetta",
+              "description": "balsamic dressing",
+              "price": 8,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [
+                { "diet": "Vegan", "mustRequest": false },
+                { "diet": "Vegetarian", "mustRequest": false },
+                { "diet": "Pescatarian", "mustRequest": false }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Celery",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Celery"
+                },
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Soya",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Soya"
+                }
+              ]
+            },
+            {
+              "name": "Traditional Cullen Skink",
+              "description": "bloomer bread",
+              "price": 8,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [{ "diet": "Pescatarian", "mustRequest": false }],
+              "allergens": [
+                {
+                  "allergen": "Celery",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Celery"
+                },
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Fish",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Fish"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                },
+                {
+                  "allergen": "Mustard",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Mustard"
+                }
+              ]
+            },
+            {
+              "name": "Chicken liver parfait",
+              "description": "onion chutney, cranberry puree & toasted bloomer",
+              "price": 7,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Mustard",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Mustard"
+                }
+              ]
+            },
+            {
+              "name": "Garlic roasted flat mushroom",
+              "description": "fig & honey chutney & glazed goats cheese",
+              "price": 8,
+              "can_safeguard": true,
+              "has_cross_contact": true,
+              "allergenCategories": true,
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                },
+                {
+                  "allergen": "Mustard",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Mustard"
+                },
+                {
+                  "allergen": "Walnut",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Nuts"
+                }
+              ]
+            },
+            {
+              "name": "Charcuterie platter – for one/to share",
+              "description": "Charcuterie platter – for one/to share prosciutto, chorizo, salami, buffalo mozzarella, olives, sunblush tomatoes & balsamic onions, bloomer bread & flavoured rapeseed dipping oils",
+              "price": 16,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Dairy"
+                },
+                {
+                  "allergen": "Soya",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Soya"
+                }
+              ]
+            },
+            {
+              "name": "Vegetarian platter – for one/ to share",
+              "description": "buffalo mozarella, courgette, aubergine, pepper, olives, sunblush tomatoes,n& balsamic onions, bloomer bread & flavoured rapeseed dipping oils",
+              "price": 14,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [{ "diet": "Vegetarian", "mustRequest": false }],
+              "allergens": [
+                {
+                  "allergen": "Celery",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Celery"
+                },
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Soya",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Soya"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mains",
+          "items": [
+            {
+              "name": "Battered haddock & chunky chips",
+              "description": "garden peas & Paper Mill tartare sauce",
+              "price": 16,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                },
+                {
+                  "allergen": "Fish",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Fish"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Dairy"
+                }
+              ]
+            },
+            {
+              "name": "Stewart’s ale braised beef shoulder",
+              "description": "colcannon mash, puff pastry lid & honey glazed carrots",
+              "price": 23,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Celery",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Celery"
+                },
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Mustard",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Mustard"
+                }
+              ]
+            },
+            {
+              "name": "4 hour braised pork belly",
+              "description": "black pudding mash, pea puree, chorizo jam & cider jus",
+              "price": 15,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Mustard",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Mustard"
+                },
+                {
+                  "allergen": "Soya",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Soya"
+                }
+              ]
+            },
+            {
+              "name": "Mixed olive gnocchi",
+              "description": "pomodoro tomato sauce",
+              "price": 12,
+              "can_safeguard": true,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [
+                { "diet": "Vegan", "mustRequest": false },
+                { "diet": "Vegetarian", "mustRequest": false },
+                { "diet": "Pescatarian", "mustRequest": false }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Lupin",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Lupin"
+                }
+              ]
+            },
+            {
+              "name": "Pan seared fillet of salmon",
+              "description": "pea & broad bean chowder",
+              "price": 19,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Celery",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Celery"
+                },
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Crustaceans",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Seafood"
+                },
+                {
+                  "allergen": "Fish",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Fish"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                },
+                {
+                  "allergen": "Molluscs",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Seafood"
+                },
+                {
+                  "allergen": "Soya",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Soya"
+                }
+              ]
+            },
+            {
+              "name": "8oz flat iron steak",
+              "description": "chunky chips, heritage tomato, portobello mushroom and your choice of sauce (see below)",
+              "price": 24,
+              "can_safeguard": true,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": []
+            },
+            {
+              "name": "8oz sirloin steak",
+              "description": "chunky chips, heritage tomato, portobello mushroom and your choice of sauce (see below)",
+              "price": 28,
+              "can_safeguard": true,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": []
+            }
+          ]
+        },
+        {
+          "name": "Sauces",
+          "items": [
+            {
+              "name": "Peppercorn Sauce",
+              "description": "",
+              "price": 0,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Celery",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Celery"
+                },
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                },
+                {
+                  "allergen": "Mustard",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Mustard"
+                }
+              ]
+            },
+            {
+              "name": "Garlic Cream",
+              "description": "",
+              "price": 0,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                }
+              ]
+            },
+            {
+              "name": "Chimmichurri",
+              "description": "",
+              "price": 0,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [{ "diet": "Celiac", "mustRequest": false }],
+              "allergens": []
+            },
+            {
+              "name": "Red Wine Jus",
+              "description": "",
+              "price": 0,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Celery",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Celery"
+                },
+                {
+                  "allergen": "Mustard",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Mustard"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Burgers",
+          "items": [
+            {
+              "name": "John Gilmour steak burger",
+              "description": "on a brioche bun, with tomato relish, Paper Mill burger sauce & gherkin. Served with skinny fries",
+              "price": 22,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Dairy"
+                },
+                {
+                  "allergen": "Mustard",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Mustard"
+                }
+              ]
+            },
+            {
+              "name": "Sunblush tomato & chickpea burger",
+              "description": "on a brioche bun, vegan applewood cheddar, tomato relish, nPaper Mill burger sauce & gherkin. Served with skinny fries",
+              "price": 20,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [{ "diet": "Vegan", "mustRequest": false }],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Cereals containing gluten"
+                }
+              ]
+            },
+            {
+              "name": "Buttermilk chicken burger",
+              "description": "on a brioche bun, with tomato relish & gherkin",
+              "price": 23,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Cereals containing gluten"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sides",
+          "items": [
+            {
+              "name": "Tenderstem broccoli & blue cheese",
+              "description": "",
+              "price": 5,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                }
+              ]
+            },
+            {
+              "name": "Horseradish mash",
+              "description": "",
+              "price": 3,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [{ "diet": "Celiac", "mustRequest": false }],
+              "allergens": []
+            },
+            {
+              "name": "Parmesan & truffle fries",
+              "description": "",
+              "price": 5,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [{ "diet": "Vegetarian", "mustRequest": false }],
+              "allergens": [
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                },
+                {
+                  "allergen": "Soya",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Soya"
+                }
+              ]
+            },
+            {
+              "name": "Mac & cheese",
+              "description": "",
+              "price": 7,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [{ "diet": "Vegetarian", "mustRequest": false }],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Dairy"
+                },
+                {
+                  "allergen": "Mustard",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Mustard"
+                }
+              ]
+            },
+            {
+              "name": "Garlic bread with vegan smoked applewood cheese",
+              "description": "",
+              "price": 5,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [{ "diet": "Vegan", "mustRequest": false }],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                }
+              ]
+            },
+            {
+              "name": "Onion rings",
+              "description": "",
+              "price": 4,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Egg",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Egg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

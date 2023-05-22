@@ -1,0 +1,191 @@
+{
+  "id": "el-taco-loco",
+  "name": "El Taco Loco",
+  "email": "hello@eltacoloco.com",
+  "phone": "+447599594837",
+  "menus": [
+    {
+      "id": "tacos",
+      "name": "Tacos",
+      "description": "",
+      "status": "Published",
+      "sections": [
+        {
+          "name": "Tacos",
+          "items": [
+            {
+              "name": "Fish",
+              "description": "Battered cod, pickle aioli, red cabbage, salsa",
+              "price": 8,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [{ "diet": "Pescatarian", "mustRequest": false }],
+              "allergens": [
+                {
+                  "allergen": "Celery",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Celery"
+                },
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Fish",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Fish"
+                },
+                {
+                  "allergen": "Mustard",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Mustard"
+                },
+                {
+                  "allergen": "Soya",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Soya"
+                }
+              ]
+            },
+            {
+              "name": "Carnitas",
+              "description": "Crispy pork shoulder, apple cabbage slaw, mustard crema, tomatillo salsa, coriander",
+              "price": 7,
+              "can_safeguard": true,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": [
+                {
+                  "allergen": "Celery",
+                  "mayContain": true,
+                  "canRemove": false,
+                  "category": "Celery"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Dairy"
+                },
+                {
+                  "allergen": "Mustard",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Mustard"
+                }
+              ]
+            },
+            {
+              "name": "Chicken",
+              "description": "Chicken Tinga, white cabbage, tomatillo salsa, coriander",
+              "price": 7.5,
+              "can_safeguard": true,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [
+                { "diet": "Low FODMAP", "mustRequest": false },
+                { "diet": "Paleo", "mustRequest": false }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Celery",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Celery"
+                },
+                {
+                  "allergen": "Sulphur dioxide",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Sulphur dioxide"
+                }
+              ]
+            },
+            {
+              "name": "Beef Tounge",
+              "description": "Beef tounge, raw onions, crispy onions, house hot sauce, coriander",
+              "price": 7,
+              "can_safeguard": true,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [],
+              "allergens": []
+            },
+            {
+              "name": "Squash",
+              "description": "Roast squash, almond arbol salsa, goats cheese, spring onions, corn nuts, coriander",
+              "price": 7,
+              "can_safeguard": true,
+              "has_cross_contact": false,
+              "allergenCategories": true,
+              "diets": [
+                { "diet": "Vegan", "mustRequest": true },
+                { "diet": "Vegetarian", "mustRequest": false }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Celery",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Celery"
+                },
+                {
+                  "allergen": "Dairy",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Dairy"
+                },
+                {
+                  "allergen": "Almond",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Nuts"
+                },
+                {
+                  "allergen": "Peanut",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Peanut"
+                }
+              ]
+            },
+            {
+              "name": "Aubergine",
+              "description": "Battered Aubergine, pickle aioli, red cabbage, roasted tomato salsa, coriander",
+              "price": 7,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [
+                { "diet": "Vegan", "mustRequest": false },
+                { "diet": "Low FODMAP", "mustRequest": true }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Soya",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Soya"
+                },
+                {
+                  "allergen": "Sulphur dioxide",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Sulphur dioxide"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
