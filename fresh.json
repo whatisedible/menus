@@ -1,0 +1,591 @@
+{
+  "id": "fresh",
+  "name": "Fresh",
+  "email": "hello@fresh.com",
+  "menus": [
+    {
+      "id": "a-la-carte",
+      "name": "A La Carte",
+      "description": "",
+      "status": "Published",
+      "sections": [
+        {
+          "name": "Small Plates",
+          "items": [
+            {
+              "name": "Garden Fresh Salad Rolls",
+              "description": "Delicate rice paper rolls filled with a vibrant mix of fresh garden vegetables. Served with a zesty lime dipping sauce.",
+              "price": 7,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [
+                { "diet": "Vegan", "mustRequest": false },
+                { "diet": "Vegetarian", "mustRequest": false },
+                { "diet": "Pescatarian", "mustRequest": false },
+                { "diet": "Low FODMAP", "mustRequest": false },
+                { "diet": "Celiac", "mustRequest": false },
+                { "diet": "Kosher", "mustRequest": false },
+                { "diet": "Halal", "mustRequest": false },
+                { "diet": "Paleo", "mustRequest": false },
+                { "diet": "Keto", "mustRequest": false }
+              ],
+              "allergens": []
+            },
+            {
+              "name": "Spicy Quinoa-Stuffed Mushrooms",
+              "description": "Roasted mushrooms stuffed with a flavorful blend of quinoa, roasted red peppers, onions, and spices. Topped with a drizzle of spicy sriracha sauce.",
+              "price": 3,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [
+                { "diet": "Vegan", "mustRequest": false },
+                { "diet": "Vegetarian", "mustRequest": false },
+                { "diet": "Pescatarian", "mustRequest": false },
+                { "diet": "Low FODMAP", "mustRequest": true },
+                { "diet": "Kosher", "mustRequest": false },
+                { "diet": "Halal", "mustRequest": false },
+                { "diet": "Paleo", "mustRequest": false },
+                { "diet": "Keto", "mustRequest": false }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Sulphur dioxide",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Sulphur dioxide"
+                }
+              ]
+            },
+            {
+              "name": "Crispy Tofu Bites",
+              "description": "Lightly battered tofu cubes, deep-fried to perfection, and tossed in a tangy sweet and sour sauce. Served with a side of fresh cilantro and lime wedges.",
+              "price": 8,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [
+                { "diet": "Vegan", "mustRequest": false },
+                { "diet": "Vegetarian", "mustRequest": false },
+                { "diet": "Pescatarian", "mustRequest": false },
+                { "diet": "Low FODMAP", "mustRequest": true },
+                { "diet": "Kosher", "mustRequest": false },
+                { "diet": "Halal", "mustRequest": false },
+                { "diet": "Paleo", "mustRequest": true },
+                { "diet": "Keto", "mustRequest": true }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Mustard",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Mustard"
+                },
+                {
+                  "allergen": "Soya",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Soya"
+                },
+                {
+                  "allergen": "Sulphur dioxide",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Sulphur dioxide"
+                }
+              ]
+            },
+            {
+              "name": "Zucchini Fritters",
+              "description": "Crispy zucchini fritters made with grated zucchini, chickpea flour, and aromatic spices. Served with a refreshing cucumber mint dip.",
+              "price": 8.5,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [
+                { "diet": "Vegan", "mustRequest": false },
+                { "diet": "Vegetarian", "mustRequest": false },
+                { "diet": "Pescatarian", "mustRequest": false },
+                { "diet": "Low FODMAP", "mustRequest": false },
+                { "diet": "Celiac", "mustRequest": false },
+                { "diet": "Kosher", "mustRequest": false },
+                { "diet": "Halal", "mustRequest": false },
+                { "diet": "Paleo", "mustRequest": true },
+                { "diet": "Keto", "mustRequest": true }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Sulphur dioxide",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Sulphur dioxide"
+                }
+              ]
+            },
+            {
+              "name": "Mediterranean Bruschetta",
+              "description": "Toasted baguette slices topped with a savory mixture of diced tomatoes, olives, red onions, basil, and a hint of balsamic glaze. Finished with a drizzle of extra virgin olive oil.",
+              "price": 7,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [
+                { "diet": "Vegan", "mustRequest": false },
+                { "diet": "Vegetarian", "mustRequest": false },
+                { "diet": "Pescatarian", "mustRequest": false },
+                { "diet": "Low FODMAP", "mustRequest": false },
+                { "diet": "Kosher", "mustRequest": false },
+                { "diet": "Halal", "mustRequest": false },
+                { "diet": "Paleo", "mustRequest": false },
+                { "diet": "Keto", "mustRequest": false }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Celery",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Celery"
+                },
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Sulphur dioxide",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Sulphur dioxide"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Big Plates",
+          "items": [
+            {
+              "name": "Lentil Curry",
+              "description": "A hearty blend of red lentils, seasonal vegetables, and aromatic spices, simmered in a rich tomato-coconut curry sauce. Served with fragrant basmati rice.",
+              "price": 13,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": true,
+              "diets": [
+                { "diet": "Vegan", "mustRequest": false },
+                { "diet": "Vegetarian", "mustRequest": false },
+                { "diet": "Pescatarian", "mustRequest": false },
+                { "diet": "Low FODMAP", "mustRequest": false },
+                { "diet": "Celiac", "mustRequest": false },
+                { "diet": "Kosher", "mustRequest": false },
+                { "diet": "Halal", "mustRequest": false },
+                { "diet": "Paleo", "mustRequest": true },
+                { "diet": "Keto", "mustRequest": true }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Mustard",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Mustard"
+                },
+                {
+                  "allergen": "Almond",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Nuts"
+                },
+                {
+                  "allergen": "Peanut",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Peanut"
+                }
+              ]
+            },
+            {
+              "name": "Chickpea and Spinach Stew",
+              "description": "A comforting stew featuring tender chickpeas, spinach, tomatoes, and a blend of herbs and spices. Served with warm crusty bread.",
+              "price": 12,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [
+                { "diet": "Vegan", "mustRequest": false },
+                { "diet": "Vegetarian", "mustRequest": false },
+                { "diet": "Pescatarian", "mustRequest": false },
+                { "diet": "Low FODMAP", "mustRequest": true },
+                { "diet": "Celiac", "mustRequest": false },
+                { "diet": "Kosher", "mustRequest": false },
+                { "diet": "Halal", "mustRequest": false },
+                { "diet": "Paleo", "mustRequest": true },
+                { "diet": "Keto", "mustRequest": true }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Mustard",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Mustard"
+                },
+                {
+                  "allergen": "Soya",
+                  "mayContain": true,
+                  "canRemove": false,
+                  "category": "Soya"
+                },
+                {
+                  "allergen": "Sulphur dioxide",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Sulphur dioxide"
+                }
+              ]
+            },
+            {
+              "name": "Grilled Vegetable Kebabs",
+              "description": "Skewers loaded with marinated grilled vegetables like bell peppers, zucchini, cherry tomatoes, and onions. Served with a side of quinoa pilaf and tangy lemon tahini sauce.",
+              "price": 15,
+              "can_safeguard": true,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [
+                { "diet": "Vegan", "mustRequest": false },
+                { "diet": "Vegetarian", "mustRequest": false },
+                { "diet": "Pescatarian", "mustRequest": false },
+                { "diet": "Low FODMAP", "mustRequest": true },
+                { "diet": "Celiac", "mustRequest": false },
+                { "diet": "Kosher", "mustRequest": false },
+                { "diet": "Halal", "mustRequest": false },
+                { "diet": "Paleo", "mustRequest": true },
+                { "diet": "Keto", "mustRequest": true }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Celery",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Celery"
+                },
+                {
+                  "allergen": "Sesame",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Seeds"
+                },
+                {
+                  "allergen": "Soya",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Soya"
+                }
+              ]
+            },
+            {
+              "name": "Butternut Squash Risotto",
+              "description": "Arborio rice cooked with roasted butternut squash, aromatic herbs, and a touch of nutmeg. Finished with a sprinkle of vegan parmesan cheese.",
+              "price": 14.5,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": true,
+              "diets": [
+                { "diet": "Vegan", "mustRequest": false },
+                { "diet": "Vegetarian", "mustRequest": false },
+                { "diet": "Pescatarian", "mustRequest": false },
+                { "diet": "Low FODMAP", "mustRequest": false },
+                { "diet": "Celiac", "mustRequest": false },
+                { "diet": "Kosher", "mustRequest": false },
+                { "diet": "Halal", "mustRequest": false },
+                { "diet": "Paleo", "mustRequest": true },
+                { "diet": "Keto", "mustRequest": true }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Cashew",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Nuts"
+                },
+                {
+                  "allergen": "Sulphur dioxide",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Sulphur dioxide"
+                }
+              ]
+            },
+            {
+              "name": "Shepherd's Pie",
+              "description": "A comforting classic made with a savory mix of lentils, mushrooms, carrots, and peas, topped with creamy mashed potatoes. Served with a side of steamed seasonal vegetables.",
+              "price": 13,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [
+                { "diet": "Vegan", "mustRequest": false },
+                { "diet": "Vegetarian", "mustRequest": false },
+                { "diet": "Pescatarian", "mustRequest": false },
+                { "diet": "Low FODMAP", "mustRequest": true },
+                { "diet": "Celiac", "mustRequest": false },
+                { "diet": "Kosher", "mustRequest": false },
+                { "diet": "Halal", "mustRequest": false },
+                { "diet": "Paleo", "mustRequest": true },
+                { "diet": "Keto", "mustRequest": true }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Celery",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Celery"
+                },
+                {
+                  "allergen": "Lupin",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Lupin"
+                },
+                {
+                  "allergen": "Mustard",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Mustard"
+                },
+                {
+                  "allergen": "Soya",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Soya"
+                }
+              ]
+            },
+            {
+              "name": "Eggplant Parmesan",
+              "description": "Sliced eggplant coated in a crispy breadcrumb crust, baked to perfection, and layered with marinara sauce and vegan mozzarella cheese. Served with a side of spaghetti tossed in a garlic-infused olive oil.",
+              "price": 9,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": true,
+              "diets": [
+                { "diet": "Vegan", "mustRequest": false },
+                { "diet": "Vegetarian", "mustRequest": false },
+                { "diet": "Pescatarian", "mustRequest": false },
+                { "diet": "Kosher", "mustRequest": false },
+                { "diet": "Halal", "mustRequest": false },
+                { "diet": "Paleo", "mustRequest": true },
+                { "diet": "Keto", "mustRequest": true }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Celery",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Celery"
+                },
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Cashew",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Nuts"
+                }
+              ]
+            },
+            {
+              "name": "Pad Thai Twist",
+              "description": "A classic Thai stir-fry featuring rice noodles, tofu, bean sprouts, and a medley of colorful vegetables in a tangy and savory sauce. ",
+              "price": 15,
+              "can_safeguard": true,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [
+                { "diet": "Vegan", "mustRequest": false },
+                { "diet": "Vegetarian", "mustRequest": false },
+                { "diet": "Pescatarian", "mustRequest": false },
+                { "diet": "Low FODMAP", "mustRequest": true },
+                { "diet": "Celiac", "mustRequest": false },
+                { "diet": "Kosher", "mustRequest": false },
+                { "diet": "Halal", "mustRequest": false },
+                { "diet": "Paleo", "mustRequest": true },
+                { "diet": "Keto", "mustRequest": true }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Peanut",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Peanut"
+                },
+                {
+                  "allergen": "Soya",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Soya"
+                },
+                {
+                  "allergen": "Sulphur dioxide",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Sulphur dioxide"
+                }
+              ]
+            },
+            {
+              "name": "Portobello Mushroom Burger",
+              "description": "A juicy grilled portobello mushroom cap marinated in a balsamic glaze, served on a toasted whole wheat bun with lettuce, tomato, red onion, and a zesty vegan aioli. Accompanied by a side of sweet potato fries.",
+              "price": 0,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": [],
+              "diets": [
+                { "diet": "Vegan", "mustRequest": false },
+                { "diet": "Vegetarian", "mustRequest": false },
+                { "diet": "Pescatarian", "mustRequest": false },
+                { "diet": "Low FODMAP", "mustRequest": true },
+                { "diet": "Celiac", "mustRequest": true },
+                { "diet": "Kosher", "mustRequest": false },
+                { "diet": "Halal", "mustRequest": false },
+                { "diet": "Paleo", "mustRequest": true },
+                { "diet": "Keto", "mustRequest": true }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Cereals containing gluten",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Cereals containing gluten"
+                },
+                {
+                  "allergen": "Sesame",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Seeds"
+                },
+                {
+                  "allergen": "Soya",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Soya"
+                },
+                {
+                  "allergen": "Sulphur dioxide",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Sulphur dioxide"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sweet Treats ",
+          "items": [
+            {
+              "name": "Chocolate Avocado Mousse",
+              "description": "A luscious and creamy chocolate mousse made with ripe avocados, cocoa powder, maple syrup, and a hint of vanilla. ",
+              "price": 7,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": true,
+              "diets": [
+                { "diet": "Vegan", "mustRequest": false },
+                { "diet": "Vegetarian", "mustRequest": false },
+                { "diet": "Pescatarian", "mustRequest": false },
+                { "diet": "Celiac", "mustRequest": false },
+                { "diet": "Kosher", "mustRequest": false },
+                { "diet": "Halal", "mustRequest": false }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Almond",
+                  "mayContain": false,
+                  "canRemove": true,
+                  "category": "Nuts"
+                },
+                {
+                  "allergen": "Soya",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Soya"
+                }
+              ]
+            },
+            {
+              "name": "Blueberry Cheesecake",
+              "description": "A delectable vegan cheesecake made with a creamy cashew and coconut milk base, swirled with blueberry compote, and resting on a nutty almond crust. Served with a dollop of coconut whipped cream.",
+              "price": 8,
+              "can_safeguard": false,
+              "has_cross_contact": true,
+              "allergenCategories": true,
+              "diets": [
+                { "diet": "Vegan", "mustRequest": false },
+                { "diet": "Vegetarian", "mustRequest": false },
+                { "diet": "Pescatarian", "mustRequest": false },
+                { "diet": "Low FODMAP", "mustRequest": false },
+                { "diet": "Celiac", "mustRequest": false },
+                { "diet": "Kosher", "mustRequest": false },
+                { "diet": "Halal", "mustRequest": false }
+              ],
+              "allergens": [
+                {
+                  "allergen": "Almond",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Nuts"
+                },
+                {
+                  "allergen": "Cashew",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Nuts"
+                },
+                {
+                  "allergen": "Coconut",
+                  "mayContain": false,
+                  "canRemove": false,
+                  "category": "Nuts"
+                }
+              ]
+            },
+            {
+              "name": "Fresh Fruit Parfait",
+              "description": "Layers of ripe seasonal fruits, dairy-free yogurt, and crunchy granola come together in a delightful parfait. Topped with a drizzle of agave syrup and a sprinkle of chia seeds.",
+              "price": 9,
+              "can_safeguard": false,
+              "has_cross_contact": false,
+              "allergenCategories": [],
+              "diets": [
+                { "diet": "Vegan", "mustRequest": false },
+                { "diet": "Vegetarian", "mustRequest": false },
+                { "diet": "Pescatarian", "mustRequest": false },
+                { "diet": "Celiac", "mustRequest": false },
+                { "diet": "Kosher", "mustRequest": false },
+                { "diet": "Halal", "mustRequest": false }
+              ],
+              "allergens": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
