@@ -125,7 +125,7 @@
                   "category": "Fish"
                 },
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": false,
                   "category": "Dairy"
@@ -177,7 +177,7 @@
               "diets": [],
               "allergens": [
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": false,
                   "category": "Dairy"
@@ -212,7 +212,7 @@
                   "category": "Cereals containing gluten"
                 },
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": true,
                   "category": "Dairy"
@@ -287,7 +287,7 @@
                   "category": "Fish"
                 },
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": true,
                   "category": "Dairy"
@@ -413,7 +413,7 @@
                   "category": "Fish"
                 },
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": false,
                   "category": "Dairy"
@@ -479,7 +479,7 @@
                   "category": "Cereals containing gluten"
                 },
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": false,
                   "category": "Dairy"
@@ -508,7 +508,7 @@
                   "category": "Cereals containing gluten"
                 },
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": false,
                   "category": "Dairy"
@@ -569,7 +569,7 @@
                   "category": "Cereals containing gluten"
                 },
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": true,
                   "category": "Dairy"
@@ -631,7 +631,7 @@
               "diets": [],
               "allergens": [
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": false,
                   "category": "Dairy"
@@ -658,7 +658,7 @@
               "diets": [{ "diet": "Vegetarian", "mustRequest": false }],
               "allergens": [
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": false,
                   "category": "Dairy"
@@ -687,7 +687,7 @@
                   "category": "Cereals containing gluten"
                 },
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": false,
                   "category": "Dairy"

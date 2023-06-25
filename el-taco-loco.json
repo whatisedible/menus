@@ -70,7 +70,7 @@
                   "category": "Celery"
                 },
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": true,
                   "category": "Dairy"
@@ -138,7 +138,7 @@
                   "category": "Celery"
                 },
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": true,
                   "category": "Dairy"

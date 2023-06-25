@@ -1,0 +1,877 @@
+{
+  "id": "culinary-exchange",
+  "name": "Culinary Exchange",
+  "email": "hello@culinaryexchange.com",
+  "menus": [
+    {
+      "name": "Starters",
+      "items": [
+        {
+          "name": "Thai Coconut Soup",
+          "description": "Creamy coconut soup infused with traditional Thai spices, lemongrass, and galangal, garnished with fresh cilantro and lime.",
+          "price": 9,
+          "can_safeguard": false,
+          "has_cross_contact": false,
+          "allergenCategories": [],
+          "diets": [{ "diet": "Pescatarian", "mustRequest": false }],
+          "allergens": [
+            {
+              "allergen": "Crustaceans",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Seafood"
+            },
+            {
+              "allergen": "Lupin",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Lupin"
+            },
+            {
+              "allergen": "Milk",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Dairy"
+            },
+            {
+              "allergen": "Molluscs",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Seafood"
+            }
+          ]
+        },
+        {
+          "name": "Korean BBQ Tacos",
+          "description": "Tender marinated grilled beef, served in soft corn tortillas with a zesty Korean BBQ sauce, pickled vegetables, and a sprinkle of sesame seeds.",
+          "price": 8,
+          "can_safeguard": false,
+          "has_cross_contact": false,
+          "allergenCategories": [],
+          "diets": [],
+          "allergens": [
+            {
+              "allergen": "Celery",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Celery"
+            },
+            {
+              "allergen": "Egg",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Egg"
+            },
+            {
+              "allergen": "Sesame",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Seeds"
+            },
+            {
+              "allergen": "Soya",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Soya"
+            }
+          ]
+        },
+        {
+          "name": "Chickpea Salad",
+          "description": " A refreshing salad featuring a mix of chickpeas, diced cucumbers, tomatoes, red onions, fresh herbs, and a tangy lemon and olive oil dressing.",
+          "price": 11,
+          "can_safeguard": false,
+          "has_cross_contact": false,
+          "allergenCategories": [],
+          "diets": [
+            { "diet": "Vegan", "mustRequest": false },
+            { "diet": "Vegetarian", "mustRequest": false },
+            { "diet": "Pescatarian", "mustRequest": false },
+            { "diet": "Kosher", "mustRequest": false },
+            { "diet": "Halal", "mustRequest": false }
+          ],
+          "allergens": []
+        },
+        {
+          "name": "Gyoza",
+          "description": "Pan-fried dumplings filled with a savory blend of minced pork, cabbage, ginger, and garlic, served with a side of soy dipping sauce.",
+          "price": 9,
+          "can_safeguard": false,
+          "has_cross_contact": false,
+          "allergenCategories": [],
+          "diets": [],
+          "allergens": [
+            {
+              "allergen": "Celery",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Celery"
+            },
+            {
+              "allergen": "Cereals containing gluten",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Cereals containing gluten"
+            },
+            {
+              "allergen": "Egg",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Egg"
+            },
+            {
+              "allergen": "Sesame",
+              "mayContain": false,
+              "canRemove": true,
+              "category": "Seeds"
+            },
+            {
+              "allergen": "Soya",
+              "mayContain": false,
+              "canRemove": true,
+              "category": "Soya"
+            }
+          ]
+        },
+        {
+          "name": "Patatas Bravas",
+          "description": "Crispy fried potato cubes topped with a spicy tomato sauce and garlic aioli, garnished with fresh parsley.",
+          "price": 4,
+          "can_safeguard": false,
+          "has_cross_contact": false,
+          "allergenCategories": [],
+          "diets": [
+            { "diet": "Vegan", "mustRequest": true },
+            { "diet": "Vegetarian", "mustRequest": false },
+            { "diet": "Pescatarian", "mustRequest": false }
+          ],
+          "allergens": [
+            {
+              "allergen": "Celery",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Celery"
+            },
+            {
+              "allergen": "Egg",
+              "mayContain": false,
+              "canRemove": true,
+              "category": "Egg"
+            }
+          ]
+        },
+        {
+          "name": "Samosa",
+          "description": "Crispy samosas filled with spiced potatoes and peas, served on a bed of tangy tamarind chutney, yogurt, and topped with crunchy sev (fried noodles) and fresh cilantro.",
+          "price": 11,
+          "can_safeguard": false,
+          "has_cross_contact": true,
+          "allergenCategories": [],
+          "diets": [
+            { "diet": "Vegetarian", "mustRequest": false },
+            { "diet": "Pescatarian", "mustRequest": false }
+          ],
+          "allergens": [
+            {
+              "allergen": "Cereals containing gluten",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Cereals containing gluten"
+            },
+            {
+              "allergen": "Egg",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Egg"
+            },
+            {
+              "allergen": "Milk",
+              "mayContain": false,
+              "canRemove": true,
+              "category": "Dairy"
+            }
+          ]
+        },
+        {
+          "name": "Spiced Chickpea Fritters",
+          "description": "Golden and crispy fritters made from a blend of chickpea flour, fresh herbs, and aromatic spices, served with a tangy yogurt dipping sauce.",
+          "price": 8,
+          "can_safeguard": false,
+          "has_cross_contact": true,
+          "allergenCategories": [],
+          "diets": [
+            { "diet": "Vegetarian", "mustRequest": false },
+            { "diet": "Pescatarian", "mustRequest": false }
+          ],
+          "allergens": [
+            {
+              "allergen": "Celery",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Celery"
+            },
+            {
+              "allergen": "Milk",
+              "mayContain": false,
+              "canRemove": true,
+              "category": "Dairy"
+            }
+          ]
+        },
+        {
+          "name": "Harvest Medley Bruschetta",
+          "description": "Toasted baguette slices topped with a flavorful combination of roasted seasonal vegetables, including zucchini, bell peppers, cherry tomatoes, and red onions, drizzled with balsamic glaze.",
+          "price": 10.5,
+          "can_safeguard": true,
+          "has_cross_contact": false,
+          "allergenCategories": [],
+          "diets": [
+            { "diet": "Vegan", "mustRequest": true },
+            { "diet": "Vegetarian", "mustRequest": false },
+            { "diet": "Pescatarian", "mustRequest": false }
+          ],
+          "allergens": [
+            {
+              "allergen": "Celery",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Celery"
+            },
+            {
+              "allergen": "Cereals containing gluten",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Cereals containing gluten"
+            },
+            {
+              "allergen": "Soya",
+              "mayContain": true,
+              "canRemove": false,
+              "category": "Soya"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mains",
+      "items": [
+        {
+          "name": "Pan-Seared Salmon with Citrus Glaze",
+          "description": "Succulent salmon fillet pan-seared to perfection, glazed with a tangy citrus sauce, served with roasted vegetables and a side of garlic mashed potatoes.",
+          "price": 18,
+          "can_safeguard": true,
+          "has_cross_contact": false,
+          "allergenCategories": [],
+          "diets": [{ "diet": "Pescatarian", "mustRequest": false }],
+          "allergens": [
+            {
+              "allergen": "Fish",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Fish"
+            },
+            {
+              "allergen": "Milk",
+              "mayContain": false,
+              "canRemove": true,
+              "category": "Dairy"
+            },
+            {
+              "allergen": "Sesame",
+              "mayContain": true,
+              "canRemove": false,
+              "category": "Seeds"
+            }
+          ]
+        },
+        {
+          "name": "Spicy Thai Basil Stir-Fry",
+          "description": "A fiery stir-fry featuring tender strips of chicken, bell peppers, onions, and Thai basil leaves in a spicy garlic sauce, served with steamed jasmine rice.",
+          "price": 16,
+          "can_safeguard": false,
+          "has_cross_contact": true,
+          "allergenCategories": [],
+          "diets": [],
+          "allergens": [
+            {
+              "allergen": "Cereals containing gluten",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Cereals containing gluten"
+            },
+            {
+              "allergen": "Fish",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Fish"
+            },
+            {
+              "allergen": "Sesame",
+              "mayContain": false,
+              "canRemove": true,
+              "category": "Seeds"
+            },
+            {
+              "allergen": "Soya",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Soya"
+            }
+          ]
+        },
+        {
+          "name": "Lamb Tagine",
+          "description": "Slow-cooked tender lamb stew with a blend of aromatic spices, dried fruits, and preserved lemons, served with fluffy couscous and toasted almonds.",
+          "price": 21,
+          "can_safeguard": false,
+          "has_cross_contact": true,
+          "allergenCategories": true,
+          "diets": [],
+          "allergens": [
+            {
+              "allergen": "Celery",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Celery"
+            },
+            {
+              "allergen": "Cereals containing gluten",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Cereals containing gluten"
+            },
+            {
+              "allergen": "Lupin",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Lupin"
+            },
+            {
+              "allergen": "Milk",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Dairy"
+            },
+            {
+              "allergen": "Mustard",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Mustard"
+            },
+            {
+              "allergen": "Almond",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Nuts"
+            },
+            {
+              "allergen": "Soya",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Soya"
+            },
+            {
+              "allergen": "Sulphur dioxide",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Sulphur dioxide"
+            }
+          ]
+        },
+        {
+          "name": "Creamy Mushroom and Truffle Risotto",
+          "description": "Creamy Arborio rice cooked with a rich blend of wild mushrooms, truffle oil, and Parmesan cheese, garnished with fresh herbs.",
+          "price": 17,
+          "can_safeguard": true,
+          "has_cross_contact": false,
+          "allergenCategories": [],
+          "diets": [
+            { "diet": "Vegetarian", "mustRequest": false },
+            { "diet": "Pescatarian", "mustRequest": false }
+          ],
+          "allergens": [
+            {
+              "allergen": "Milk",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Dairy"
+            }
+          ]
+        },
+        {
+          "name": "BBQ Pulled Pork Sliders",
+          "description": "Slow-cooked pulled pork smothered in a tangy barbecue sauce, served on mini brioche buns with coleslaw and sweet potato fries.",
+          "price": 13,
+          "can_safeguard": false,
+          "has_cross_contact": true,
+          "allergenCategories": [],
+          "diets": [],
+          "allergens": [
+            {
+              "allergen": "Celery",
+              "mayContain": true,
+              "canRemove": false,
+              "category": "Celery"
+            },
+            {
+              "allergen": "Cereals containing gluten",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Cereals containing gluten"
+            },
+            {
+              "allergen": "Egg",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Egg"
+            },
+            {
+              "allergen": "Mustard",
+              "mayContain": false,
+              "canRemove": true,
+              "category": "Mustard"
+            },
+            {
+              "allergen": "Soya",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Soya"
+            },
+            {
+              "allergen": "Sulphur dioxide",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Sulphur dioxide"
+            }
+          ]
+        },
+        {
+          "name": "Beef Lasagna",
+          "description": "Layers of tender ground beef, lasagna noodles, tomato sauce, and a rich béchamel sauce, topped with melted mozzarella cheese and baked to perfection.",
+          "price": 15,
+          "can_safeguard": false,
+          "has_cross_contact": false,
+          "allergenCategories": [],
+          "diets": [],
+          "allergens": [
+            {
+              "allergen": "Celery",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Celery"
+            },
+            {
+              "allergen": "Cereals containing gluten",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Cereals containing gluten"
+            },
+            {
+              "allergen": "Egg",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Egg"
+            },
+            {
+              "allergen": "Milk",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Dairy"
+            }
+          ]
+        },
+        {
+          "name": "Sizzling Teriyaki Tofu Stir-Fry",
+          "description": "Stir-fried tofu and colorful vegetables in a savory teriyaki sauce, served on a sizzling hot plate with steamed white rice.",
+          "price": 14,
+          "can_safeguard": false,
+          "has_cross_contact": false,
+          "allergenCategories": [],
+          "diets": [
+            { "diet": "Vegan", "mustRequest": false },
+            { "diet": "Vegetarian", "mustRequest": false },
+            { "diet": "Pescatarian", "mustRequest": false }
+          ],
+          "allergens": [
+            {
+              "allergen": "Celery",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Celery"
+            },
+            {
+              "allergen": "Peanut",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Peanut"
+            },
+            {
+              "allergen": "Sesame",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Seeds"
+            },
+            {
+              "allergen": "Soya",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Soya"
+            }
+          ]
+        },
+        {
+          "name": "Cajun Spiced Shrimp Linguine",
+          "description": "Linguine pasta tossed with plump shrimp, bell peppers, onions, and Cajun spices in a creamy tomato sauce, garnished with fresh parsley.",
+          "price": 18,
+          "can_safeguard": true,
+          "has_cross_contact": false,
+          "allergenCategories": [],
+          "diets": [{ "diet": "Pescatarian", "mustRequest": false }],
+          "allergens": [
+            {
+              "allergen": "Cereals containing gluten",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Cereals containing gluten"
+            },
+            {
+              "allergen": "Crustaceans",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Seafood"
+            },
+            {
+              "allergen": "Milk",
+              "mayContain": false,
+              "canRemove": true,
+              "category": "Dairy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Coconut Jasmine Rice",
+          "description": "Fragrant jasmine rice cooked in coconut milk, infused with aromatic spices, and garnished with toasted coconut flakes.",
+          "price": 5,
+          "can_safeguard": false,
+          "has_cross_contact": false,
+          "allergenCategories": [],
+          "diets": [
+            { "diet": "Vegan", "mustRequest": false },
+            { "diet": "Vegetarian", "mustRequest": false },
+            { "diet": "Pescatarian", "mustRequest": false },
+            { "diet": "Low FODMAP", "mustRequest": false },
+            { "diet": "Celiac", "mustRequest": false },
+            { "diet": "Kosher", "mustRequest": false },
+            { "diet": "Halal", "mustRequest": false },
+            { "diet": "Paleo", "mustRequest": false },
+            { "diet": "Keto", "mustRequest": false }
+          ],
+          "allergens": []
+        },
+        {
+          "name": "Truffle Parmesan Fries",
+          "description": "Crispy French fries tossed with truffle oil, grated Parmesan cheese, and fresh parsley, served with a side of truffle aioli for dipping.",
+          "price": 7,
+          "can_safeguard": false,
+          "has_cross_contact": true,
+          "allergenCategories": [],
+          "diets": [
+            { "diet": "Vegan", "mustRequest": true },
+            { "diet": "Vegetarian", "mustRequest": false },
+            { "diet": "Pescatarian", "mustRequest": false }
+          ],
+          "allergens": [
+            {
+              "allergen": "Milk",
+              "mayContain": false,
+              "canRemove": true,
+              "category": "Dairy"
+            },
+            {
+              "allergen": "Soya",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Soya"
+            }
+          ]
+        },
+        {
+          "name": "Grilled Seasonal Vegetables",
+          "description": "A medley of seasonal vegetables, such as zucchini, bell peppers, eggplant, and cherry tomatoes, lightly grilled and seasoned with herbs and olive oil.",
+          "price": 4,
+          "can_safeguard": true,
+          "has_cross_contact": true,
+          "allergenCategories": [],
+          "diets": [
+            { "diet": "Vegan", "mustRequest": false },
+            { "diet": "Vegetarian", "mustRequest": false },
+            { "diet": "Pescatarian", "mustRequest": false },
+            { "diet": "Low FODMAP", "mustRequest": false },
+            { "diet": "Celiac", "mustRequest": false },
+            { "diet": "Kosher", "mustRequest": false },
+            { "diet": "Halal", "mustRequest": false },
+            { "diet": "Paleo", "mustRequest": false },
+            { "diet": "Keto", "mustRequest": false }
+          ],
+          "allergens": []
+        },
+        {
+          "name": "Spinach and Mushroom Gratin",
+          "description": "A delectable combination of sautéed spinach and mushrooms baked in a creamy béchamel sauce, topped with a golden breadcrumb crust.",
+          "price": 4,
+          "can_safeguard": false,
+          "has_cross_contact": false,
+          "allergenCategories": [],
+          "diets": [
+            { "diet": "Vegetarian", "mustRequest": false },
+            { "diet": "Pescatarian", "mustRequest": false }
+          ],
+          "allergens": [
+            {
+              "allergen": "Cereals containing gluten",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Cereals containing gluten"
+            },
+            {
+              "allergen": "Milk",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Dairy"
+            },
+            {
+              "allergen": "Sesame",
+              "mayContain": true,
+              "canRemove": false,
+              "category": "Seeds"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dessert",
+      "items": [
+        {
+          "name": "Chocolate Lava Cake",
+          "description": "A rich and indulgent chocolate cake with a molten lava center, served warm with a scoop of vanilla ice cream and a drizzle of chocolate sauce.",
+          "price": 9,
+          "can_safeguard": false,
+          "has_cross_contact": true,
+          "allergenCategories": false,
+          "diets": [{ "diet": "Vegetarian", "mustRequest": false }],
+          "allergens": []
+        },
+        {
+          "name": "Classic New York Cheesecake",
+          "description": "Creamy and velvety smooth New York-style cheesecake on a buttery graham cracker crust, served with a choice of berry compote or caramel sauce.",
+          "price": 8,
+          "can_safeguard": false,
+          "has_cross_contact": true,
+          "allergenCategories": [],
+          "diets": [
+            { "diet": "Vegetarian", "mustRequest": false },
+            { "diet": "Pescatarian", "mustRequest": false }
+          ],
+          "allergens": [
+            {
+              "allergen": "Cereals containing gluten",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Cereals containing gluten"
+            },
+            {
+              "allergen": "Milk",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Dairy"
+            }
+          ]
+        },
+        {
+          "name": "Zesty Lemon Tart",
+          "description": "Tangy and refreshing lemon curd in a buttery pastry shell, topped with a dollop of whipped cream and a sprinkle of powdered sugar.",
+          "price": 7,
+          "can_safeguard": false,
+          "has_cross_contact": false,
+          "allergenCategories": [],
+          "diets": [
+            { "diet": "Vegetarian", "mustRequest": false },
+            { "diet": "Pescatarian", "mustRequest": false }
+          ],
+          "allergens": [
+            {
+              "allergen": "Cereals containing gluten",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Cereals containing gluten"
+            },
+            {
+              "allergen": "Egg",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Egg"
+            },
+            {
+              "allergen": "Milk",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Dairy"
+            }
+          ]
+        },
+        {
+          "name": "Warm Apple Crumble",
+          "description": "Baked apple slices with a hint of cinnamon and brown sugar, topped with a crunchy oat crumble, served with a scoop of vanilla ice cream.",
+          "price": 8,
+          "can_safeguard": false,
+          "has_cross_contact": true,
+          "allergenCategories": [],
+          "diets": [
+            { "diet": "Vegetarian", "mustRequest": false },
+            { "diet": "Pescatarian", "mustRequest": false }
+          ],
+          "allergens": [
+            {
+              "allergen": "Cereals containing gluten",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Cereals containing gluten"
+            },
+            {
+              "allergen": "Milk",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Dairy"
+            }
+          ]
+        },
+        {
+          "name": "Creamy Coconut Panna Cotta",
+          "description": "Smooth and creamy coconut milk panna cotta infused with fragrant vanilla, topped with a tropical fruit compote and toasted coconut flakes.",
+          "price": 6,
+          "can_safeguard": false,
+          "has_cross_contact": false,
+          "allergenCategories": false,
+          "diets": [
+            { "diet": "Vegetarian", "mustRequest": false },
+            { "diet": "Pescatarian", "mustRequest": false }
+          ],
+          "allergens": [
+            {
+              "allergen": "Milk",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Dairy"
+            },
+            {
+              "allergen": "Sulphur dioxide",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Sulphur dioxide"
+            }
+          ]
+        },
+        {
+          "name": "Baklava",
+          "description": "Layers of flaky phyllo pastry filled with a sweet mixture of ground almonds, cinnamon, and honey syrup, baked to golden perfection.",
+          "price": 8,
+          "can_safeguard": false,
+          "has_cross_contact": true,
+          "allergenCategories": true,
+          "diets": [
+            { "diet": "Vegetarian", "mustRequest": false },
+            { "diet": "Pescatarian", "mustRequest": false }
+          ],
+          "allergens": [
+            {
+              "allergen": "Cereals containing gluten",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Cereals containing gluten"
+            },
+            {
+              "allergen": "Egg",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Egg"
+            },
+            {
+              "allergen": "Almond",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Nuts"
+            }
+          ]
+        },
+        {
+          "name": "Chocolate Mousse",
+          "description": "Silky and indulgent chocolate mousse infused with the nutty flavor of hazelnuts, topped with whipped cream and crushed hazelnuts.",
+          "price": 9,
+          "can_safeguard": false,
+          "has_cross_contact": false,
+          "allergenCategories": true,
+          "diets": [
+            { "diet": "Vegetarian", "mustRequest": false },
+            { "diet": "Pescatarian", "mustRequest": false }
+          ],
+          "allergens": [
+            {
+              "allergen": "Egg",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Egg"
+            },
+            {
+              "allergen": "Milk",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Dairy"
+            },
+            {
+              "allergen": "Hazelnut",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Nuts"
+            }
+          ]
+        },
+        {
+          "name": "PB&J Sundae",
+          "description": "Creamy peanut butter ice cream layered with swirls of sweet strawberry jam, topped with whipped cream, crushed peanuts, and a cherry on top.",
+          "price": 8,
+          "can_safeguard": false,
+          "has_cross_contact": false,
+          "allergenCategories": false,
+          "diets": [],
+          "allergens": [
+            {
+              "allergen": "Egg",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Egg"
+            },
+            {
+              "allergen": "Milk",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Dairy"
+            },
+            {
+              "allergen": "Peanut",
+              "mayContain": false,
+              "canRemove": false,
+              "category": "Peanut"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
