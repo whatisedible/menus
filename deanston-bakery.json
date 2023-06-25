@@ -271,7 +271,7 @@
                   "category": "Fish"
                 },
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": false,
                   "category": "Dairy"
@@ -312,7 +312,7 @@
                   "category": "Fish"
                 },
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": false,
                   "category": "Dairy"
@@ -347,7 +347,7 @@
                   "category": "Egg"
                 },
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": false,
                   "category": "Dairy"
@@ -607,7 +607,7 @@
                   "category": "Egg"
                 },
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": false,
                   "category": "Dairy"
@@ -636,7 +636,7 @@
                   "category": "Egg"
                 },
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": false,
                   "category": "Dairy"
@@ -665,7 +665,7 @@
                   "category": "Egg"
                 },
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": false,
                   "category": "Dairy"
@@ -688,7 +688,7 @@
                   "category": "Cereals containing gluten"
                 },
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": false,
                   "category": "Dairy"
@@ -722,7 +722,7 @@
                   "category": "Egg"
                 },
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": false,
                   "category": "Dairy"
@@ -751,7 +751,7 @@
                   "category": "Egg"
                 },
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": false,
                   "category": "Dairy"
@@ -780,7 +780,7 @@
                   "category": "Egg"
                 },
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": false,
                   "category": "Dairy"
@@ -809,7 +809,7 @@
                   "category": "Egg"
                 },
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": false,
                   "category": "Dairy"
@@ -838,7 +838,7 @@
                   "category": "Egg"
                 },
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": false,
                   "category": "Dairy"
@@ -873,7 +873,7 @@
                   "category": "Egg"
                 },
                 {
-                  "allergen": "Dairy",
+                  "allergen": "Milk",
                   "mayContain": false,
                   "canRemove": false,
                   "category": "Dairy"
